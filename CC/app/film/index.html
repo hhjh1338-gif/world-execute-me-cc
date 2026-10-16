@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="data:,">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CC 动画演示与本地素材预览</title>
+<style>
+  :root { --bg: #07080d; --panel: #10121d; --line: #2c3150; --text: #eceefa; --sub: #a3a9cc; --accent: #80b2d8; }
+  html, body { margin: 0; background: var(--bg); color: var(--text); font: 14px "Noto Sans SC", "Microsoft YaHei", sans-serif; }
+  #wrap { max-width: 1600px; margin: 0 auto; padding: 12px 16px 24px; }
+  canvas, video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+  [hidden] { display: none !important; }
+  #watch { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; color: var(--sub); }
+  #watch button { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font: inherit; cursor: pointer; }
+  #watch button.on { border-color: var(--accent); color: var(--accent); }
+  #live { border-color: var(--accent) !important; }
+  #bar { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
+  #bar button { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 6px; padding: 5px 10px; font: inherit; cursor: pointer; }
+  #bar button.on { border-color: var(--accent); color: var(--accent); }
+  #bar button:disabled { opacity: 0.5; cursor: wait; }
+  #seek { flex: 1 1 100%; accent-color: var(--accent); }
+  #clock { font-family: Consolas, monospace; font-size: 16px; min-width: 260px; }
+  #help, #import-help { color: var(--sub); margin-top: 6px; line-height: 1.7; }
+  #asset-status { margin: 0 0 10px; color: var(--accent); line-height: 1.7; }
+  body.export #bar, body.export #help, body.export #watch, body.export #asset-status, body.export #import-help { display: none; }
+  body.export #wrap { padding: 0; max-width: none; }
+  body.export canvas { width: 1920px; height: 1080px; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <p id="asset-status" role="status" aria-live="polite">正在准备几何占位演示…</p>
+  <canvas id="film" width="1920" height="1080"></canvas>
+  <video id="vid" controls playsinline preload="none" hidden></video>
+  <div id="watch" hidden>样片：<span id="samples"></span><button id="live" hidden>■ 回到实时画面</button></div>
+  <div id="bar">
+    <input id="seek" aria-label="播放位置" type="range" min="0" max="1" step="0.001" value="0" disabled>
+    <button id="play" disabled>▶ 播放</button>
+    <button id="prev" disabled>◀ 帧</button><button id="next" disabled>帧 ▶</button>
+    <span id="groups"></span>
+    <span id="clock">00:00.00</span>
+  </div>
+  <div id="help">空格 播放／暂停 · ←／→ 一帧 · Shift+←／→ 一拍 · 1–9 跳到前九组镜头。复杂镜头的流畅度取决于设备性能。</div>
+  <div id="import-help">本包不含原成片素材。可将你有权使用的图片、字幕和音频放入 <code>input</code> 目录后刷新；文件要求见项目 README。缺少素材时仍可播放完整几何占位演示。</div>
+</div>
+<audio id="song" preload="metadata"></audio>
+<script type="module" src="./main.js"></script>
+</body>
+</html>

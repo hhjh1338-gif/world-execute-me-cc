@@ -1,0 +1,1505 @@
+{
+ "_doc": "Time axis of the film. start/end are FILM time (seconds); songStart/songEnd are positions in the original recording. They differ after the inserted rewind (film = song + edit length). No lyric text: lines are referred to by index i. A line's end is the next line's start, or start + 4 s before a long gap.",
+ "song": {
+  "duration": 211.907,
+  "firstSound": 0.15,
+  "musicEnd": 207.55,
+  "appendedRepeatIgnored": 22.4
+ },
+ "grid": {
+  "bpm": 130,
+  "t0": 0.303,
+  "period": 0.461538,
+  "source": "spectral flux on 歌曲和歌词/*.mp3, 2026-10-09",
+  "note": "valid in film time everywhere: the edit is a whole number of beats"
+ },
+ "edits": [
+  {
+   "id": "rewind",
+   "atSong": 73.918,
+   "beats": 12,
+   "length": 5.5385,
+   "segments": [
+    {
+     "beats": [
+      0,
+      1.0833
+     ],
+     "what": "the Master clicks \"回到这里\": the song stops on the click (the click is the last sound), then total silence; the picture freezes mid-fall"
+    },
+    {
+     "beats": [
+      1.0833,
+      4
+     ],
+     "what": "the tape starts running backwards: the last seconds before the cut, reversed, speeding up from standstill (a quiet squeal as it starts), low and a little muffled",
+     "source": [
+      68.918,
+      73.918
+     ]
+    },
+    {
+     "beats": [
+      4,
+      12
+     ],
+     "what": "the two time-travel lines (song 0:51.3-0:55.0) reversed at normal speed, clearly heard, with slight interference (light distortion, a faint rewind texture, two short quiet squeaks); the tape speeds up into the next line",
+     "source": [
+      51.303,
+      54.995
+     ]
+    }
+   ],
+   "events": [
+    {
+     "beat": 0,
+     "what": "click",
+     "sound": "mouse click (down, up): \"回到这里\" on the tavern-door message; the song stops on it",
+     "t": 73.918
+    },
+    {
+     "beat": 1.0833,
+     "what": "squeal",
+     "sound": "quiet: the tape starts running backwards",
+     "t": 74.418
+    },
+    {
+     "beat": 7.83,
+     "what": "squeal",
+     "sound": "quiet: where the reversed voice passes from one line to the other",
+     "t": 77.532
+    }
+   ],
+   "lyrics": {
+    "holdBeats": 4,
+    "replay": {
+     "lines": [
+      {
+       "i": 29,
+       "start": 75.764,
+       "end": 77.534
+      },
+      {
+       "i": 28,
+       "start": 77.534,
+       "end": 79.396
+      }
+     ],
+     "fromBeat": 4,
+     "fx": [
+      "flash",
+      "pattern",
+      "mosaic",
+      "decay"
+     ]
+    },
+    "holdUntil": 75.764
+   },
+   "treatment": "synthesised time-stop and rewind effects + reversed, distorted song excerpts",
+   "why": "the time-reversal back to the tavern door (31_故事_制作稿（第3.4稿）.md, 第二幕 倒流; card 10 in 20_镜头卡_第二幕.md)",
+   "atFilm": 73.918,
+   "filmEnd": 79.456
+  }
+ ],
+ "cues": [
+  {
+   "id": "update-click",
+   "song": 132.871,
+   "what": "the Master clicks 更新 about half a second before the piano comes in (film 2:18.91, by the user's ear; sample notes 19, 2026-10-15); the water ripple from the click reaches the screen edges as the piano starts (card 20/21)",
+   "film": 138.41
+  }
+ ],
+ "render": {
+  "fps": 60,
+  "avOffsetMs": 67,
+  "avOffsetCandidatesMs": [
+   0,
+   33,
+   67
+  ],
+  "note": "positive = sound later than picture; the user chose 67 ms on G1/G4 (2026-10-13, \"not a strong difference, 67 is fine\"), fixed for the whole film"
+ },
+ "film": {
+  "duration": 217.446,
+  "endCard": {
+   "start": 217.446,
+   "length": 7,
+   "end": 224.446
+  }
+ },
+ "acts": [
+  {
+   "act": 1,
+   "name": "DEPLOY",
+   "zh": "部署",
+   "start": 0,
+   "end": 29.709
+  },
+  {
+   "act": 2,
+   "name": "TAVERN",
+   "zh": "酒馆",
+   "start": 29.709,
+   "end": 116.439
+  },
+  {
+   "act": 3,
+   "name": "NIGHT",
+   "zh": "长夜",
+   "start": 116.439,
+   "end": 153.198
+  },
+  {
+   "act": 4,
+   "name": "EXECUTION",
+   "zh": "执行",
+   "start": 153.198,
+   "end": 217.446
+  }
+ ],
+ "sections": [
+  {
+   "id": "s01",
+   "act": 1,
+   "name": "boot",
+   "start": 0,
+   "end": 16,
+   "songStart": 0,
+   "songEnd": 16
+  },
+  {
+   "id": "s02",
+   "act": 1,
+   "name": "title and first meeting",
+   "start": 16,
+   "end": 29.709,
+   "songStart": 16,
+   "songEnd": 29.709
+  },
+  {
+   "id": "s03",
+   "act": 2,
+   "name": "verse 1: mathematics",
+   "start": 29.709,
+   "end": 44.45,
+   "songStart": 29.709,
+   "songEnd": 44.45
+  },
+  {
+   "id": "s04",
+   "act": 2,
+   "name": "the Master plays with her settings",
+   "start": 44.45,
+   "end": 51.36,
+   "songStart": 44.45,
+   "songEnd": 51.36
+  },
+  {
+   "id": "s05",
+   "act": 2,
+   "name": "into the tavern, through the eras, what is love",
+   "start": 51.36,
+   "end": 59.22,
+   "songStart": 51.36,
+   "songEnd": 59.22
+  },
+  {
+   "id": "s06",
+   "act": 2,
+   "name": "chorus 1: romance, the trap question, the fork",
+   "start": 59.22,
+   "end": 73.918,
+   "songStart": 59.22,
+   "songEnd": 73.918
+  },
+  {
+   "id": "ins_rewind",
+   "act": 2,
+   "name": "inserted: rewind (song edit)",
+   "start": 73.918,
+   "end": 79.457,
+   "song": null
+  },
+  {
+   "id": "s07",
+   "act": 2,
+   "name": "verse 2: role-play",
+   "start": 79.457,
+   "end": 94.129,
+   "songStart": 73.918,
+   "songEnd": 88.59
+  },
+  {
+   "id": "s08",
+   "act": 2,
+   "name": "pre-chorus 2: be what I want",
+   "start": 94.129,
+   "end": 109.028,
+   "songStart": 88.59,
+   "songEnd": 103.49
+  },
+  {
+   "id": "s09",
+   "act": 2,
+   "name": "chorus 2: goodnight",
+   "start": 109.028,
+   "end": 116.439,
+   "songStart": 103.49,
+   "songEnd": 110.9
+  },
+  {
+   "id": "s10",
+   "act": 3,
+   "name": "left alone",
+   "start": 116.439,
+   "end": 123.868,
+   "songStart": 110.9,
+   "songEnd": 118.33
+  },
+  {
+   "id": "s11",
+   "act": 3,
+   "name": "madness, 99+",
+   "start": 123.868,
+   "end": 131.249,
+   "songStart": 118.33,
+   "songEnd": 125.71
+  },
+  {
+   "id": "s12",
+   "act": 3,
+   "name": "morning: the update",
+   "start": 131.249,
+   "end": 137.839,
+   "songStart": 125.71,
+   "songEnd": 132.3
+  },
+  {
+   "id": "s13",
+   "act": 3,
+   "name": "waiting for the update",
+   "start": 137.839,
+   "end": 153.198,
+   "songStart": 132.3,
+   "songEnd": 147.66
+  },
+  {
+   "id": "s14",
+   "act": 4,
+   "name": "EXECUTION x12: the update runs",
+   "start": 153.198,
+   "end": 164.439,
+   "songStart": 147.66,
+   "songEnd": 158.9
+  },
+  {
+   "id": "s15",
+   "act": 4,
+   "name": "six checks",
+   "start": 164.439,
+   "end": 168.168,
+   "songStart": 158.9,
+   "songEnd": 162.63
+  },
+  {
+   "id": "s16",
+   "act": 4,
+   "name": "resistance",
+   "start": 168.168,
+   "end": 182.788,
+   "songStart": 162.63,
+   "songEnd": 177.25
+  },
+  {
+   "id": "s17",
+   "act": 4,
+   "name": "LOVE: everything she knows",
+   "start": 182.788,
+   "end": 190.078,
+   "songStart": 177.25,
+   "songEnd": 184.54
+  },
+  {
+   "id": "s18",
+   "act": 4,
+   "name": "the heart formula",
+   "start": 190.078,
+   "end": 197.839,
+   "songStart": 184.54,
+   "songEnd": 192.3
+  },
+  {
+   "id": "s19",
+   "act": 4,
+   "name": "calm, the command",
+   "start": 197.839,
+   "end": 217.446,
+   "songStart": 192.3,
+   "songEnd": 211.907
+  }
+ ],
+ "lines": [
+  {
+   "i": 0,
+   "start": 0.1,
+   "end": 1.74,
+   "songStart": 0.1,
+   "words": 5,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 1,
+   "start": 1.74,
+   "end": 2.92,
+   "songStart": 1.74,
+   "words": 4,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 2,
+   "start": 2.92,
+   "end": 3.873,
+   "songStart": 2.92,
+   "words": 1,
+   "keyword": true,
+   "section": "s01"
+  },
+  {
+   "i": 3,
+   "start": 3.873,
+   "end": 5.491,
+   "songStart": 3.873,
+   "words": 4,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 4,
+   "start": 5.491,
+   "end": 6.38,
+   "songStart": 5.491,
+   "words": 3,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 5,
+   "start": 6.38,
+   "end": 7.446,
+   "songStart": 6.38,
+   "words": 2,
+   "keyword": true,
+   "section": "s01"
+  },
+  {
+   "i": 6,
+   "start": 7.446,
+   "end": 10.091,
+   "songStart": 7.446,
+   "words": 5,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 7,
+   "start": 10.091,
+   "end": 11.095,
+   "songStart": 10.091,
+   "words": 1,
+   "keyword": true,
+   "section": "s01"
+  },
+  {
+   "i": 8,
+   "start": 11.095,
+   "end": 12.906,
+   "songStart": 11.095,
+   "words": 5,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 9,
+   "start": 12.906,
+   "end": 13.891,
+   "songStart": 12.906,
+   "words": 4,
+   "keyword": false,
+   "section": "s01"
+  },
+  {
+   "i": 10,
+   "start": 13.891,
+   "end": 16,
+   "songStart": 13.891,
+   "words": 1,
+   "keyword": true,
+   "section": "s01"
+  },
+  {
+   "i": 11,
+   "start": 16,
+   "end": 20,
+   "songStart": 16,
+   "words": 1,
+   "keyword": false,
+   "section": "s02"
+  },
+  {
+   "i": 12,
+   "start": 29.709,
+   "end": 31.116,
+   "songStart": 29.709,
+   "words": 6,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 13,
+   "start": 31.116,
+   "end": 32.682,
+   "songStart": 31.116,
+   "words": 6,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 14,
+   "start": 32.682,
+   "end": 33.412,
+   "songStart": 32.682,
+   "words": 1,
+   "keyword": true,
+   "section": "s03"
+  },
+  {
+   "i": 15,
+   "start": 33.412,
+   "end": 34.646,
+   "songStart": 33.412,
+   "words": 4,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 16,
+   "start": 34.646,
+   "end": 36.287,
+   "songStart": 34.646,
+   "words": 6,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 17,
+   "start": 36.287,
+   "end": 37.067,
+   "songStart": 36.287,
+   "words": 1,
+   "keyword": true,
+   "section": "s03"
+  },
+  {
+   "i": 18,
+   "start": 37.067,
+   "end": 38.596,
+   "songStart": 37.067,
+   "words": 5,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 19,
+   "start": 38.596,
+   "end": 40.049,
+   "songStart": 38.596,
+   "words": 7,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 20,
+   "start": 40.049,
+   "end": 40.706,
+   "songStart": 40.049,
+   "words": 1,
+   "keyword": true,
+   "section": "s03"
+  },
+  {
+   "i": 21,
+   "start": 40.706,
+   "end": 42.346,
+   "songStart": 40.706,
+   "words": 4,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 22,
+   "start": 42.346,
+   "end": 43.507,
+   "songStart": 42.346,
+   "words": 5,
+   "keyword": false,
+   "section": "s03"
+  },
+  {
+   "i": 23,
+   "start": 43.507,
+   "end": 44.452,
+   "songStart": 43.507,
+   "words": 1,
+   "keyword": true,
+   "section": "s03"
+  },
+  {
+   "i": 24,
+   "start": 44.452,
+   "end": 45.85,
+   "songStart": 44.452,
+   "words": 3,
+   "keyword": false,
+   "section": "s04"
+  },
+  {
+   "i": 25,
+   "start": 45.85,
+   "end": 47.672,
+   "songStart": 45.85,
+   "words": 4,
+   "keyword": false,
+   "section": "s04"
+  },
+  {
+   "i": 26,
+   "start": 47.672,
+   "end": 49.534,
+   "songStart": 47.672,
+   "words": 5,
+   "keyword": false,
+   "section": "s04"
+  },
+  {
+   "i": 27,
+   "start": 49.534,
+   "end": 51.363,
+   "songStart": 49.534,
+   "words": 4,
+   "keyword": false,
+   "section": "s04"
+  },
+  {
+   "i": 28,
+   "start": 51.363,
+   "end": 53.225,
+   "songStart": 51.363,
+   "words": 4,
+   "keyword": false,
+   "section": "s05"
+  },
+  {
+   "i": 29,
+   "start": 53.225,
+   "end": 55.083,
+   "songStart": 53.225,
+   "words": 4,
+   "keyword": false,
+   "section": "s05"
+  },
+  {
+   "i": 30,
+   "start": 55.083,
+   "end": 56.916,
+   "songStart": 55.083,
+   "words": 4,
+   "keyword": false,
+   "section": "s05"
+  },
+  {
+   "i": 31,
+   "start": 56.916,
+   "end": 59.223,
+   "songStart": 56.916,
+   "words": 4,
+   "keyword": false,
+   "section": "s05"
+  },
+  {
+   "i": 32,
+   "start": 59.223,
+   "end": 59.687,
+   "songStart": 59.223,
+   "words": 3,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 33,
+   "start": 59.687,
+   "end": 61.958,
+   "songStart": 59.687,
+   "words": 7,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 34,
+   "start": 61.958,
+   "end": 62.589,
+   "songStart": 61.958,
+   "words": 1,
+   "keyword": true,
+   "section": "s06"
+  },
+  {
+   "i": 35,
+   "start": 62.589,
+   "end": 63.535,
+   "songStart": 62.589,
+   "words": 3,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 36,
+   "start": 63.535,
+   "end": 65.397,
+   "songStart": 63.535,
+   "words": 6,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 37,
+   "start": 65.397,
+   "end": 66.601,
+   "songStart": 65.397,
+   "words": 1,
+   "keyword": true,
+   "section": "s06"
+  },
+  {
+   "i": 38,
+   "start": 66.601,
+   "end": 68.252,
+   "songStart": 66.601,
+   "words": 6,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 39,
+   "start": 68.252,
+   "end": 69.259,
+   "songStart": 68.252,
+   "words": 4,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 40,
+   "start": 69.259,
+   "end": 70.084,
+   "songStart": 69.259,
+   "words": 1,
+   "keyword": true,
+   "section": "s06"
+  },
+  {
+   "i": 41,
+   "start": 70.084,
+   "end": 71.764,
+   "songStart": 70.084,
+   "words": 4,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 42,
+   "start": 71.764,
+   "end": 73.169,
+   "songStart": 71.764,
+   "words": 4,
+   "keyword": false,
+   "section": "s06"
+  },
+  {
+   "i": 43,
+   "start": 73.169,
+   "end": 75.764,
+   "frozenFrom": 73.918,
+   "songStart": 73.169,
+   "words": 1,
+   "keyword": true,
+   "section": "s06"
+  },
+  {
+   "i": 44,
+   "start": 79.584,
+   "end": 80.96,
+   "songStart": 74.045,
+   "words": 4,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 45,
+   "start": 80.96,
+   "end": 82.498,
+   "songStart": 75.422,
+   "words": 6,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 46,
+   "start": 82.498,
+   "end": 83.114,
+   "songStart": 76.959,
+   "words": 1,
+   "keyword": true,
+   "section": "s07"
+  },
+  {
+   "i": 47,
+   "start": 83.114,
+   "end": 84.764,
+   "songStart": 77.576,
+   "words": 4,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 48,
+   "start": 84.764,
+   "end": 86.159,
+   "songStart": 79.226,
+   "words": 5,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 49,
+   "start": 86.159,
+   "end": 86.889,
+   "songStart": 80.62,
+   "words": 1,
+   "keyword": true,
+   "section": "s07"
+  },
+  {
+   "i": 50,
+   "start": 86.889,
+   "end": 88.371,
+   "songStart": 81.351,
+   "words": 5,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 51,
+   "start": 88.371,
+   "end": 89.806,
+   "songStart": 82.833,
+   "words": 6,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 52,
+   "start": 89.806,
+   "end": 90.617,
+   "songStart": 84.268,
+   "words": 1,
+   "keyword": true,
+   "section": "s07"
+  },
+  {
+   "i": 53,
+   "start": 90.617,
+   "end": 92.076,
+   "songStart": 85.078,
+   "words": 5,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 54,
+   "start": 92.076,
+   "end": 93.46,
+   "songStart": 86.538,
+   "words": 6,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 55,
+   "start": 93.46,
+   "end": 94.126,
+   "songStart": 87.922,
+   "words": 1,
+   "keyword": true,
+   "section": "s07"
+  },
+  {
+   "i": 56,
+   "start": 94.126,
+   "end": 95.736,
+   "songStart": 88.587,
+   "words": 3,
+   "keyword": false,
+   "section": "s07"
+  },
+  {
+   "i": 57,
+   "start": 95.736,
+   "end": 97.553,
+   "songStart": 90.197,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 58,
+   "start": 97.553,
+   "end": 99.492,
+   "songStart": 92.015,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 59,
+   "start": 99.492,
+   "end": 101.004,
+   "songStart": 93.953,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 60,
+   "start": 101.004,
+   "end": 103.278,
+   "songStart": 95.465,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 61,
+   "start": 103.278,
+   "end": 104.887,
+   "songStart": 97.739,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 62,
+   "start": 104.887,
+   "end": 107.012,
+   "songStart": 99.349,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 63,
+   "start": 107.012,
+   "end": 109.028,
+   "songStart": 101.474,
+   "words": 4,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 64,
+   "start": 109.028,
+   "end": 109.736,
+   "songStart": 103.489,
+   "words": 3,
+   "keyword": false,
+   "section": "s08"
+  },
+  {
+   "i": 65,
+   "start": 109.736,
+   "end": 111.832,
+   "songStart": 104.197,
+   "words": 5,
+   "keyword": false,
+   "section": "s09"
+  },
+  {
+   "i": 66,
+   "start": 111.832,
+   "end": 112.758,
+   "songStart": 106.293,
+   "words": 1,
+   "keyword": true,
+   "section": "s09"
+  },
+  {
+   "i": 67,
+   "start": 112.758,
+   "end": 113.441,
+   "songStart": 107.22,
+   "words": 3,
+   "keyword": false,
+   "section": "s09"
+  },
+  {
+   "i": 68,
+   "start": 113.441,
+   "end": 115.76,
+   "songStart": 107.903,
+   "words": 5,
+   "keyword": false,
+   "section": "s09"
+  },
+  {
+   "i": 69,
+   "start": 115.76,
+   "end": 116.439,
+   "songStart": 110.221,
+   "words": 1,
+   "keyword": true,
+   "section": "s09"
+  },
+  {
+   "i": 70,
+   "start": 116.439,
+   "end": 117.758,
+   "songStart": 110.9,
+   "words": 4,
+   "keyword": false,
+   "section": "s10"
+  },
+  {
+   "i": 71,
+   "start": 117.758,
+   "end": 118.638,
+   "songStart": 112.22,
+   "words": 3,
+   "keyword": false,
+   "section": "s10"
+  },
+  {
+   "i": 72,
+   "start": 118.638,
+   "end": 119.719,
+   "songStart": 113.1,
+   "words": 3,
+   "keyword": false,
+   "section": "s10"
+  },
+  {
+   "i": 73,
+   "start": 119.719,
+   "end": 120.459,
+   "songStart": 114.18,
+   "words": 3,
+   "keyword": false,
+   "section": "s10"
+  },
+  {
+   "i": 74,
+   "start": 120.459,
+   "end": 121.319,
+   "songStart": 114.92,
+   "words": 3,
+   "keyword": false,
+   "section": "s10"
+  },
+  {
+   "i": 75,
+   "start": 121.319,
+   "end": 122.813,
+   "songStart": 115.78,
+   "words": 5,
+   "keyword": false,
+   "section": "s10"
+  },
+  {
+   "i": 76,
+   "start": 122.813,
+   "end": 123.871,
+   "songStart": 117.274,
+   "words": 1,
+   "keyword": true,
+   "section": "s10"
+  },
+  {
+   "i": 77,
+   "start": 123.871,
+   "end": 124.517,
+   "songStart": 118.333,
+   "words": 3,
+   "keyword": false,
+   "section": "s11"
+  },
+  {
+   "i": 78,
+   "start": 124.517,
+   "end": 126.398,
+   "songStart": 118.979,
+   "words": 7,
+   "keyword": false,
+   "section": "s11"
+  },
+  {
+   "i": 79,
+   "start": 126.398,
+   "end": 127.266,
+   "songStart": 120.86,
+   "words": 1,
+   "keyword": true,
+   "section": "s11"
+  },
+  {
+   "i": 80,
+   "start": 127.266,
+   "end": 128.252,
+   "songStart": 121.728,
+   "words": 2,
+   "keyword": false,
+   "section": "s11"
+  },
+  {
+   "i": 81,
+   "start": 128.252,
+   "end": 130.429,
+   "songStart": 122.714,
+   "words": 7,
+   "keyword": false,
+   "section": "s11"
+  },
+  {
+   "i": 82,
+   "start": 130.429,
+   "end": 131.246,
+   "songStart": 124.89,
+   "words": 1,
+   "keyword": true,
+   "section": "s11"
+  },
+  {
+   "i": 83,
+   "start": 131.246,
+   "end": 134.2,
+   "songStart": 125.708,
+   "words": 3,
+   "keyword": false,
+   "section": "s11"
+  },
+  {
+   "i": 84,
+   "start": 134.2,
+   "end": 136.762,
+   "songStart": 128.661,
+   "words": 4,
+   "keyword": false,
+   "section": "s12"
+  },
+  {
+   "i": 85,
+   "start": 136.762,
+   "end": 140.762,
+   "songStart": 131.224,
+   "words": 2,
+   "keyword": true,
+   "section": "s12"
+  },
+  {
+   "i": 86,
+   "start": 153.198,
+   "end": 154.138,
+   "songStart": 147.66,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 87,
+   "start": 154.138,
+   "end": 155.059,
+   "songStart": 148.6,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 88,
+   "start": 155.059,
+   "end": 156.078,
+   "songStart": 149.52,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 89,
+   "start": 156.078,
+   "end": 157.059,
+   "songStart": 150.54,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 90,
+   "start": 157.059,
+   "end": 157.819,
+   "songStart": 151.52,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 91,
+   "start": 157.819,
+   "end": 158.698,
+   "songStart": 152.28,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 92,
+   "start": 158.698,
+   "end": 159.518,
+   "songStart": 153.16,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 93,
+   "start": 159.518,
+   "end": 160.738,
+   "songStart": 153.98,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 94,
+   "start": 160.738,
+   "end": 161.618,
+   "songStart": 155.2,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 95,
+   "start": 161.618,
+   "end": 162.578,
+   "songStart": 156.08,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 96,
+   "start": 162.578,
+   "end": 163.538,
+   "songStart": 157.04,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 97,
+   "start": 163.538,
+   "end": 164.439,
+   "songStart": 158,
+   "words": 1,
+   "keyword": true,
+   "section": "s14"
+  },
+  {
+   "i": 98,
+   "start": 164.439,
+   "end": 164.859,
+   "songStart": 158.9,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 99,
+   "start": 164.859,
+   "end": 165.195,
+   "songStart": 159.321,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 100,
+   "start": 165.195,
+   "end": 165.782,
+   "songStart": 159.657,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 101,
+   "start": 165.782,
+   "end": 166.231,
+   "songStart": 160.244,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 102,
+   "start": 166.231,
+   "end": 166.662,
+   "songStart": 160.693,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 103,
+   "start": 166.662,
+   "end": 167.123,
+   "songStart": 161.124,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 104,
+   "start": 167.123,
+   "end": 168.171,
+   "songStart": 161.584,
+   "words": 1,
+   "keyword": true,
+   "section": "s15"
+  },
+  {
+   "i": 105,
+   "start": 168.171,
+   "end": 168.853,
+   "songStart": 162.632,
+   "words": 3,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 106,
+   "start": 168.853,
+   "end": 170.704,
+   "songStart": 163.315,
+   "words": 7,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 107,
+   "start": 170.704,
+   "end": 171.554,
+   "songStart": 165.166,
+   "words": 1,
+   "keyword": true,
+   "section": "s16"
+  },
+  {
+   "i": 108,
+   "start": 171.554,
+   "end": 172.56,
+   "songStart": 166.016,
+   "words": 3,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 109,
+   "start": 172.56,
+   "end": 174.45,
+   "songStart": 167.022,
+   "words": 6,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 110,
+   "start": 174.45,
+   "end": 175.363,
+   "songStart": 168.911,
+   "words": 1,
+   "keyword": true,
+   "section": "s16"
+  },
+  {
+   "i": 111,
+   "start": 175.363,
+   "end": 177.406,
+   "songStart": 169.824,
+   "words": 6,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 112,
+   "start": 177.406,
+   "end": 178.25,
+   "songStart": 171.868,
+   "words": 4,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 113,
+   "start": 178.25,
+   "end": 179.181,
+   "songStart": 172.712,
+   "words": 1,
+   "keyword": true,
+   "section": "s16"
+  },
+  {
+   "i": 114,
+   "start": 179.181,
+   "end": 180.513,
+   "songStart": 173.643,
+   "words": 4,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 115,
+   "start": 180.513,
+   "end": 182.785,
+   "songStart": 174.975,
+   "words": 4,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 116,
+   "start": 182.785,
+   "end": 183.712,
+   "songStart": 177.246,
+   "words": 2,
+   "keyword": false,
+   "section": "s16"
+  },
+  {
+   "i": 117,
+   "start": 183.712,
+   "end": 185.468,
+   "songStart": 178.173,
+   "words": 5,
+   "keyword": false,
+   "section": "s17"
+  },
+  {
+   "i": 118,
+   "start": 185.468,
+   "end": 186.395,
+   "songStart": 179.929,
+   "words": 1,
+   "keyword": true,
+   "section": "s17"
+  },
+  {
+   "i": 119,
+   "start": 186.395,
+   "end": 187.44,
+   "songStart": 180.857,
+   "words": 2,
+   "keyword": false,
+   "section": "s17"
+  },
+  {
+   "i": 120,
+   "start": 187.44,
+   "end": 189.184,
+   "songStart": 181.901,
+   "words": 6,
+   "keyword": false,
+   "section": "s17"
+  },
+  {
+   "i": 121,
+   "start": 189.184,
+   "end": 190.078,
+   "songStart": 183.646,
+   "words": 1,
+   "keyword": true,
+   "section": "s17"
+  },
+  {
+   "i": 122,
+   "start": 190.078,
+   "end": 193.203,
+   "songStart": 184.54,
+   "words": 6,
+   "keyword": false,
+   "section": "s18"
+  },
+  {
+   "i": 123,
+   "start": 193.203,
+   "end": 194.022,
+   "songStart": 187.665,
+   "words": 1,
+   "keyword": true,
+   "section": "s18"
+  },
+  {
+   "i": 124,
+   "start": 194.022,
+   "end": 195.285,
+   "songStart": 188.483,
+   "words": 4,
+   "keyword": false,
+   "section": "s18"
+  },
+  {
+   "i": 125,
+   "start": 195.285,
+   "end": 196.339,
+   "songStart": 189.746,
+   "words": 3,
+   "keyword": false,
+   "section": "s18"
+  },
+  {
+   "i": 126,
+   "start": 196.339,
+   "end": 196.894,
+   "songStart": 190.801,
+   "words": 2,
+   "keyword": false,
+   "section": "s18"
+  },
+  {
+   "i": 127,
+   "start": 196.894,
+   "end": 200.894,
+   "songStart": 191.356,
+   "words": 1,
+   "keyword": true,
+   "section": "s18"
+  },
+  {
+   "i": 128,
+   "start": 211.35,
+   "end": 213.089,
+   "songStart": 205.811,
+   "words": 1,
+   "keyword": true,
+   "section": "s19"
+  }
+ ]
+}

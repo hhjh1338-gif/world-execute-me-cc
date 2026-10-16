@@ -1,0 +1,32 @@
+# User-supplied media are local inputs, never part of the source distribution.
+input/*
+!input/README.md
+!input/art
+input/art/*
+!input/art/README.md
+**/node_modules/
+**/.cache/
+**/__pycache__/
+**/.env
+**/.env.*
+**/*.log
+CC/样片/
+CC/音频/
+CC/发布/
+CC/美术生成/
+output/
+*.mp4
+*.mp3
+*.flac
+*.wav
+*.lrc
+
+# Local credentials and certificate/private-key containers.
+.npmrc
+.pypirc
+.netrc
+credentials.json
+*.pem
+*.key
+*.p12
+*.pfx

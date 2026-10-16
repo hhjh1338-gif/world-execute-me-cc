@@ -1,0 +1,25 @@
+{
+  "name": "world-execute-me-cc",
+  "private": true,
+  "type": "module",
+  "description": "Optional export dependencies for the CC fan-MV source package; see ../../README.md.",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "start": "node tools/serve.mjs",
+    "export": "node tools/export.mjs",
+    "film": "node tools/film.mjs",
+    "cover": "node tools/cover.mjs"
+  },
+  "dependencies": {
+    "@fontsource/noto-sans-sc": "5.1.1",
+    "ffmpeg-static": "5.2.0",
+    "playwright-core": "1.49.1",
+    "vite": "5.4.21"
+  },
+  "allowScripts": {
+    "esbuild@0.21.5": true,
+    "ffmpeg-static@5.2.0": true
+  },
+  "license": "MIT",
+  "author": "开车必备导航"
+}

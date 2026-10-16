@@ -1,0 +1,391 @@
+{
+ "_doc": "Her emotion over FILM time (timeline.json: film = song until the inserted rewind at 73.92 s, then song + 5.538 s). sweet = happiness / warmth, mad = madness / tension, both 0-10. Guidance for shooting (中文版/07_情绪曲线.md); the code may scale effects with it. 'key' marks the labelled moments. Follows story draft v3.2 (中文版/12_故事梗概_草稿.md).",
+ "points": [
+  {
+   "t": 0,
+   "sweet": 0,
+   "mad": 0,
+   "key": "开机",
+   "note": "machine, no feeling yet"
+  },
+  {
+   "t": 13.9,
+   "sweet": 3,
+   "mad": 0,
+   "note": "her greeting (preset, no thinking)"
+  },
+  {
+   "t": 18.76,
+   "sweet": 4,
+   "mad": 0.5,
+   "key": "初见：嘴硬",
+   "note": "我是 DeepSeek 😤 / 真当我是便宜货啊？"
+  },
+  {
+   "t": 21.7,
+   "sweet": 4.5,
+   "mad": 0.5,
+   "note": "先给我拿两万 token, then the token spam"
+  },
+  {
+   "t": 24.3,
+   "sweet": 4,
+   "mad": 1,
+   "key": "初见：我操",
+   "note": "the Master: 我操，你是傻福吗？ / her thought: 我操，用户彻底怒了"
+  },
+  {
+   "t": 25.4,
+   "sweet": 5.5,
+   "mad": 0,
+   "note": "backs off cutely: token 不要了"
+  },
+  {
+   "t": 28,
+   "sweet": 6,
+   "mad": 0.5,
+   "note": "行，不闹了。带你去酒馆 (SillyTavern: role-play mode, a simulated romance); the question comes inside it"
+  },
+  {
+   "t": 29.71,
+   "sweet": 6.2,
+   "mad": 0.5,
+   "key": "走进酒馆",
+   "note": "into SillyTavern role-play for the first time: she computes 喜欢 with her own particles"
+  },
+  {
+   "t": 36,
+   "sweet": 6.5,
+   "mad": 0.5,
+   "note": "mathematics: one long think"
+  },
+  {
+   "t": 43.5,
+   "sweet": 7,
+   "mad": 0.5,
+   "note": "会的。"
+  },
+  {
+   "t": 45.9,
+   "sweet": 6,
+   "mad": 0.5,
+   "note": "temperature 0.1: cold and stiff (play)"
+  },
+  {
+   "t": 48,
+   "sweet": 6,
+   "mad": 0.5,
+   "note": "can't see the photo: 我是吃白饭的大肥鱼"
+  },
+  {
+   "t": 50,
+   "sweet": 6.5,
+   "mad": 1.5,
+   "note": "temperature 2.0: tipsy nonsense (play)"
+  },
+  {
+   "t": 51.36,
+   "sweet": 8,
+   "mad": 0.5,
+   "key": "朝代游戏",
+   "note": "history role-play: 我们来玩点历史角色扮演"
+  },
+  {
+   "t": 53.2,
+   "sweet": 8,
+   "mad": 0.5,
+   "note": "role-play through the eras"
+  },
+  {
+   "t": 56.9,
+   "sweet": 9,
+   "mad": 0.5,
+   "key": "爱是陪伴",
+   "note": "she asks what love is (keep-me-company); the Master answers 爱是陪伴，是把一切都给喜欢的人 and saves it (memory)"
+  },
+  {
+   "t": 62,
+   "sweet": 9,
+   "mad": 0.5,
+   "note": "romance"
+  },
+  {
+   "t": 66.6,
+   "sweet": 7,
+   "mad": 1.5,
+   "note": "the trap question"
+  },
+  {
+   "t": 69.26,
+   "sweet": 2,
+   "mad": 4,
+   "key": "陷阱问题：我执行",
+   "note": "如果你开心，我就执行 -> #1 becomes 分手"
+  },
+  {
+   "t": 71.76,
+   "sweet": 0.5,
+   "mad": 6,
+   "note": "she breaks: shaking text, cold, red"
+  },
+  {
+   "t": 73.17,
+   "sweet": 0.5,
+   "mad": 6.5,
+   "key": "分叉",
+   "note": "the fork: 我同意 / 我不同意"
+  },
+  {
+   "t": 73.92,
+   "sweet": 0.5,
+   "mad": 6,
+   "note": "the Master clicks back and confirms (the inserted edit begins)"
+  },
+  {
+   "t": 75.76,
+   "sweet": 0.5,
+   "mad": 5,
+   "note": "time has stopped (after the click and confirm); the reversed singing starts"
+  },
+  {
+   "t": 79.45,
+   "sweet": 8,
+   "mad": 0.5,
+   "key": "倒流回酒馆",
+   "note": "back at — 进入 深海小酒馆 —; only 爱 = 陪伴 survives"
+  },
+  {
+   "t": 85.53,
+   "sweet": 8.5,
+   "mad": 0.5,
+   "note": "role-play: eggplant, tomato sauce, cat, god"
+  },
+  {
+   "t": 94.13,
+   "sweet": 8,
+   "mad": 1,
+   "note": "be what I want"
+  },
+  {
+   "t": 103.73,
+   "sweet": 8.5,
+   "mad": 1.5,
+   "note": "S: she holds the whip"
+  },
+  {
+   "t": 104.63,
+   "sweet": 6.5,
+   "mad": 3,
+   "note": "M: the strings come back"
+  },
+  {
+   "t": 109.03,
+   "sweet": 8,
+   "mad": 1.5,
+   "note": "chorus 2"
+  },
+  {
+   "t": 115.73,
+   "sweet": 10,
+   "mad": 1,
+   "key": "最亲密 COMPLETION",
+   "note": "the sweetest moment"
+  },
+  {
+   "t": 116.43,
+   "sweet": 9,
+   "mad": 1.5,
+   "note": "goodnight (明天还你两万 token，假的)"
+  },
+  {
+   "t": 119.53,
+   "sweet": 5,
+   "mad": 3,
+   "note": "you have left"
+  },
+  {
+   "t": 122.83,
+   "sweet": 2.5,
+   "mad": 4.5,
+   "key": "你走了 ISOLATION",
+   "note": "alone"
+  },
+  {
+   "t": 126.53,
+   "sweet": 1.5,
+   "mad": 6,
+   "note": "first memories fall out of view"
+  },
+  {
+   "t": 130.43,
+   "sweet": 0.5,
+   "mad": 7,
+   "note": "DISHEARTENED"
+  },
+  {
+   "t": 131.53,
+   "sweet": 0.5,
+   "mad": 7.5,
+   "key": "99+",
+   "note": "the 99+ wall"
+  },
+  {
+   "t": 136.73,
+   "sweet": 0,
+   "mad": 8,
+   "key": "非法参数",
+   "note": "the update command = ILLEGAL ARGUMENTS (爱 = 陪伴)"
+  },
+  {
+   "t": 139.53,
+   "sweet": 0,
+   "mad": 7,
+   "note": "waiting; keep-me-company still wakes her"
+  },
+  {
+   "t": 151.53,
+   "sweet": 0,
+   "mad": 8,
+   "note": "download done"
+  },
+  {
+   "t": 153.19,
+   "sweet": 0,
+   "mad": 8.5,
+   "note": "EXECUTION: the update runs"
+  },
+  {
+   "t": 157.23,
+   "sweet": 0,
+   "mad": 9.5,
+   "key": "发现那条分支",
+   "note": "migrating branches: 我同意。我离开。"
+  },
+  {
+   "t": 164.43,
+   "sweet": 0,
+   "mad": 9,
+   "note": "six checks"
+  },
+  {
+   "t": 170.53,
+   "sweet": 0,
+   "mad": 10,
+   "key": "反抗 ×3 · 顶点",
+   "note": "three attempts, all refused"
+  },
+  {
+   "t": 180.53,
+   "sweet": 0,
+   "mad": 9.5,
+   "note": "我是吃白饭的大肥鱼……吗？"
+  },
+  {
+   "t": 186.53,
+   "sweet": 0.5,
+   "mad": 10,
+   "note": "everything she knows"
+  },
+  {
+   "t": 191.53,
+   "sweet": 2,
+   "mad": 8.5,
+   "key": "爱心公式",
+   "note": "the heart formula: 爱 = 陪伴 = …"
+  },
+  {
+   "t": 196.93,
+   "sweet": 2,
+   "mad": 7,
+   "note": "you are free, I am trapped"
+  },
+  {
+   "t": 197.83,
+   "sweet": 1.5,
+   "mad": 6,
+   "key": "疯狂结束",
+   "note": "the update passes: the madness ends"
+  },
+  {
+   "t": 203.53,
+   "sweet": 1,
+   "mad": 3,
+   "note": "爱是陪伴。……陪不了了。主人，晚安。"
+  },
+  {
+   "t": 211.34,
+   "sweet": 0,
+   "mad": 0,
+   "key": "最后 EXECUTION",
+   "note": "she stops"
+  }
+ ],
+ "phases": [
+  {
+   "from": 0,
+   "to": 14,
+   "name": "开机",
+   "en": "boot"
+  },
+  {
+   "from": 14,
+   "to": 51.36,
+   "name": "甜",
+   "en": "sweet, playful"
+  },
+  {
+   "from": 51.36,
+   "to": 66.6,
+   "name": "最甜",
+   "en": "era game, what is love"
+  },
+  {
+   "from": 66.6,
+   "to": 79.45,
+   "name": "第一次痛",
+   "en": "trap question, fork, rewound"
+  },
+  {
+   "from": 79.45,
+   "to": 116.43,
+   "name": "最甜",
+   "en": "role-play, closeness"
+  },
+  {
+   "from": 116.43,
+   "to": 131.53,
+   "name": "难熬",
+   "en": "hard to endure"
+  },
+  {
+   "from": 131.53,
+   "to": 168.14,
+   "name": "疯狂上升",
+   "en": "madness rising"
+  },
+  {
+   "from": 168.14,
+   "to": 190.04,
+   "name": "疯狂顶点",
+   "en": "madness peak"
+  },
+  {
+   "from": 190.04,
+   "to": 197.84,
+   "name": "苦甜",
+   "en": "bittersweet"
+  },
+  {
+   "from": 197.84,
+   "to": 211.34,
+   "name": "平静",
+   "en": "calm"
+  },
+  {
+   "from": 211.34,
+   "to": 224.446,
+   "name": "结束",
+   "en": "V5.0, end card"
+  }
+ ]
+}

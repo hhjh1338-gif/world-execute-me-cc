@@ -1,0 +1,121 @@
+{
+ "_doc": "Colour of the film over FILM time (17_制作规范.md §5; user's idea 2026-10-10: the emotion curve makes small colour adjustments). Two layers: (1) base palettes that switch HARD at story turning points (like the references, which change colour at structure points, not by fading); (2) small continuous adjustments from emotion.json: sweet warms the colours, mad pulls them toward red-black. Her hair tips follow mad. The code reads this file; tools/emotion_colour.mjs draws it next to the three references.",
+ "base": [
+  {
+   "t": 0,
+   "name": "开机：灰度",
+   "bg": "#0e0e10",
+   "accent": "#9a9aa3"
+  },
+  {
+   "t": 13.89,
+   "name": "她醒来：她的蓝",
+   "bg": "#0c0d16",
+   "accent": "#80b2d8"
+  },
+  {
+   "t": 29.71,
+   "name": "酒馆：暖粉",
+   "bg": "#170f1d",
+   "accent": "#ff7eb6"
+  },
+  {
+   "t": 69.26,
+   "name": "“我执行”：冷",
+   "bg": "#0d1117",
+   "accent": "#8fa3b8"
+  },
+  {
+   "t": 73.92,
+   "name": "倒流：倒带蓝",
+   "bg": "#0b0e18",
+   "accent": "#8fb3ff"
+  },
+  {
+   "t": 79.46,
+   "name": "回到酒馆：暖粉",
+   "bg": "#170f1d",
+   "accent": "#ff7eb6"
+  },
+  {
+   "t": 116.43,
+   "name": "长夜：暗",
+   "bg": "#07090f",
+   "accent": "#4a5a94"
+  },
+  {
+   "t": 131.25,
+   "name": "早晨：冷灰蓝",
+   "bg": "#0c1016",
+   "accent": "#8fa3b8",
+   "why": "卡 20：早上的冷光，主人醒了（她不知道）"
+  },
+  {
+   "t": 134.2,
+   "name": "更新：红黑",
+   "bg": "#10070a",
+   "accent": "#d6303a"
+  },
+  {
+   "t": 157.23,
+   "name": "“我执行”：冷",
+   "bg": "#0d1117",
+   "accent": "#8fa3b8",
+   "why": "卡 22 第 5 声：分支被读过她，那一格闪回卡 8 的冷灰蓝（被倒掉的那段聊天的颜色）"
+  },
+  {
+   "t": 158.15,
+   "name": "更新：红黑",
+   "bg": "#10070a",
+   "accent": "#d6303a",
+   "why": "卡 22：大插画裂开，回到红黑"
+  },
+  {
+   "t": 197.84,
+   "name": "平静：她的蓝",
+   "bg": "#0a0c14",
+   "accent": "#6491cb"
+  },
+  {
+   "t": 211.34,
+   "name": "V5.0：平的蓝",
+   "bg": "#0c0d16",
+   "accent": "#4d6bfe"
+  },
+  {
+   "t": 217.446,
+   "name": "片尾：黑",
+   "bg": "#000000",
+   "accent": "#e6e6ea"
+  }
+ ],
+ "emotion": {
+  "_doc": "k = value/10. warm(sweet) mixes toward warmBg/warmAccent; red(mad) starts above madFrom and mixes toward redBg/redAccent. tips = mix(her tips, redAccent, mad/10).",
+  "warmBg": "#1f1428",
+  "warmAccent": "#ffb38a",
+  "warmBgMax": 0.3,
+  "warmAccentMax": 0.25,
+  "redBg": "#2a0508",
+  "redAccent": "#d6303a",
+  "madFrom": 3,
+  "redBgMax": 0.7,
+  "redAccentMax": 0.8,
+  "tips": "#6491cb",
+  "glow": [
+   0.15,
+   0.05
+  ],
+  "glitch": "(mad/10)^2"
+ },
+ "fades": [
+  {
+   "from": 201.5,
+   "to": 208.8,
+   "name": "体温降到 0：她的蓝慢慢褪淡发白（`23` 新巧思 2，`24` D4）",
+   "bg": "#1a1d26",
+   "accent": "#d4dae6",
+   "max": 0.55,
+   "_doc": "from `from` to `to` the colours mix toward bg/accent by up to max (eased); held until the next base switch"
+  }
+ ]
+}

@@ -1,0 +1,10 @@
+{
+  "_doc": "Optional user-provided local inputs, excluded from distribution.",
+  "en": {
+    "file": "input/lyrics.en.lrc"
+  },
+  "zh": {
+    "file": "input/lyrics.zh.json",
+    "field": "lines[i].zh"
+  }
+}

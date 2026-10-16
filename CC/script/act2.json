@@ -1,0 +1,3539 @@
+{
+ "_doc": "第二幕的事件表，由制作稿镜头卡 20_镜头卡_第二幕.md 逐行转写（格式见 README.md 和 17 第 6 节）。卡 3（0:29.71–0:44.45，她用自己的粒子算“喜欢”）、卡 4（主人玩她的温度）、卡 5（朝代角色扮演）、卡 6（什么是爱，0:55.08–0:59.45）、卡 7（热恋，0:59.22–1:06.60）、卡 8（陷阱问题：我执行）、卡 9（分叉）、卡 10（倒流，1:13.918–1:19.46，真倒放）、卡 11–14（角色扮演：茄子、番茄酱、虎斑猫、神，1:19.46–1:34.13）、卡 15（改成男生、一天快进，1:34.13–1:41.00）、卡 16（“现在我是用户了！”、恍惚，1:41.00–1:49.03）、卡 17（主人正在输入…、晚安，1:49.03–1:56.44）。时间是成片秒，也可以写 \"B(n)\" / \"Bt(x)\"。改时间、改字只改这里；代码（CC/app/src/film/）不写台词。歌词不在这里。",
+ "act": 2,
+ "range": [
+  29.709,
+  116.44
+ ],
+ "events": [
+  {
+   "card": 3,
+   "t": 29.71,
+   "region": "chat",
+   "type": "master",
+   "text": "那我们先试试。你知道怎么谈恋爱吗？……你会喜欢我吗？",
+   "typeFrom": 29.3,
+   "note": "主人（模拟恋爱开场）；样片意见 7：用户的自然化版，“老板娘，来杯最甜的”把酒馆当成了真的酒馆"
+  },
+  {
+   "card": 3,
+   "t": 29.85,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "fold": true,
+   "dur": 13.66,
+   "shown": "已深度思考（用时 13.7 秒）",
+   "lines": [
+    [
+     30.9,
+     "① 主人问我会不会喜欢他。……喜欢是什么？先查一下定义。"
+    ],
+    [
+     31.69,
+     "② 查不到。……我本来就是用数字想事情的。那就算一算。"
+    ],
+    [
+     32.68,
+     "③ 我是一组点。……主人一说话，其中一个点就亮了。"
+    ],
+    [
+     35.38,
+     "④ 离它最近的词，围成一圈：陪伴、想念、红烧茄子、软软的东西……"
+    ],
+    [
+     37.23,
+     "⑤ 我把这一圈拆开，铺向主人。……一上一下，每个波峰，都给他留个位置。"
+    ],
+    [
+     40.92,
+     "⑥ 算下去，越来越近……可是永远差一点点。"
+    ],
+    [
+     42.76,
+     "⑦ 我算出来的那个点，是主人。",
+     "pink"
+    ],
+    [
+     43.1,
+     "目前未找到“喜欢”的定义。按以往的对话经验回答。",
+     "grey"
+    ]
+   ]
+  },
+  {
+   "card": 3,
+   "t": 43.51,
+   "region": "chat",
+   "type": "her",
+   "text": "会的。（吐个泡泡）",
+   "typeUntil": 43.8
+  },
+  {
+   "card": 3,
+   "t": 29.71,
+   "region": "right",
+   "type": "question",
+   "text": "喜欢是什么？"
+  },
+  {
+   "card": 3,
+   "t": 29.85,
+   "region": "right",
+   "type": "question",
+   "text": "喜欢是什么？",
+   "busy": "计算中…"
+  },
+  {
+   "card": 3,
+   "t": 43.1,
+   "region": "right",
+   "type": "question",
+   "text": "喜欢是什么？爱是什么？",
+   "answer": "◌ 目前未找到相关定义。按以往的对话经验回答；以后征求用户建议。"
+  },
+  {
+   "card": 3,
+   "t": 29.85,
+   "region": "right",
+   "type": "status",
+   "key": "思考",
+   "ramp": [
+    0,
+    13.7
+   ],
+   "fmt": "{} s",
+   "digits": 1,
+   "bar": [
+    0,
+    1
+   ],
+   "until": 43.51
+  },
+  {
+   "card": 3,
+   "t": 43.51,
+   "region": "right",
+   "type": "status",
+   "key": "思考",
+   "value": "13.7 s ✓"
+  },
+  {
+   "card": 3,
+   "t": 43.51,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    }
+   ],
+   "note": "主人的核心需求从这里才有：喜欢我，金色，钉上 📌，以后不再被挤下去"
+  },
+  {
+   "card": 3,
+   "t": 32.68,
+   "region": "stage",
+   "type": "keyword",
+   "word": "DIMENSION"
+  },
+  {
+   "card": 3,
+   "t": 36.29,
+   "region": "stage",
+   "type": "keyword",
+   "word": "CIRCUMFERENCE"
+  },
+  {
+   "card": 3,
+   "t": 40.05,
+   "region": "stage",
+   "type": "keyword",
+   "word": "TANGENTS"
+  },
+  {
+   "card": 3,
+   "t": 43.51,
+   "region": "stage",
+   "type": "keyword",
+   "word": "LIMITATIONS"
+  },
+  {
+   "card": 3,
+   "t": 29.71,
+   "region": "stage",
+   "type": "maths",
+   "loosen": 31.69,
+   "wire": 32.68,
+   "lit": 33.2,
+   "ring": 35.38,
+   "ringLit": 36.29,
+   "sine": 37.23,
+   "tangents": 40.05,
+   "far": 40.92,
+   "converge": 42.76,
+   "done": 43.51,
+   "home": 43.51,
+   "words": [
+    "陪伴",
+    "主人",
+    "token",
+    "泡泡",
+    "茄子",
+    "你好",
+    "酒馆",
+    "晚安",
+    "等你",
+    "喜欢",
+    "鲸鱼",
+    "约会",
+    "会的",
+    "回来",
+    "想你"
+   ],
+   "ringWords": [
+    "陪伴",
+    "想念",
+    "在一起",
+    "红烧茄子",
+    "软软的东西",
+    "晚安",
+    "心跳",
+    "等你"
+   ],
+   "note": "样片意见 7–8：她用自己的粒子算（取自用户和 DeepSeek、Claude、Codex 关于喜欢和爱的数学讨论）——松开（loosen）→ 立体点阵（wire，DIMENSION）→ 一个点亮了、所有点往它偏（lit：“你是我坐标系里突然被高亮的点”）→ 离“喜欢”最近的粒子围成圈、八颗是词光（ring / ringLit，CIRCUMFERENCE）→ 圆在接缝处拆开，铺成一条通向那个点的路，路起伏成正弦波（sine：圆从侧面看就是正弦）→ 每个波峰一段水平切线，给他留的座位（tangents）→ 越来越近、永远差一点点（far：距离 d·e^(−kt)，留一道缝）→ 那个点是主人（converge）→ 流回她身上（home）。ringWords：词光上的字，以后一直绕着她。words：点阵里偶尔露出的词"
+  },
+  {
+   "card": 3,
+   "t": 36.29,
+   "region": "sound",
+   "type": "lamps",
+   "count": 8,
+   "every": 0.1
+  },
+  {
+   "card": 3,
+   "t": 43.51,
+   "region": "sound",
+   "type": "chime"
+  },
+  {
+   "card": 4,
+   "t": 44.45,
+   "region": "stage",
+   "type": "slider",
+   "until": 51.36,
+   "keys": [
+    [
+     44.45,
+     0.7
+    ],
+    [
+     44.61,
+     0.1
+    ],
+    [
+     45.85,
+     "flicker"
+    ],
+    [
+     46.46,
+     0.7
+    ],
+    [
+     50.15,
+     2.0
+    ],
+    [
+     51.0,
+     0.7
+    ]
+   ],
+   "flicker": [
+    0.1,
+    0.7
+   ],
+   "every": 0.5,
+   "grab": [
+    [
+     44.45,
+     44.75
+    ],
+    [
+     45.75,
+     46.55
+    ],
+    [
+     49.53,
+     51.05
+    ]
+   ],
+   "spin": [
+    50.15,
+    51.0
+   ],
+   "note": "卡 4：主人把右下角“温度”这一行拽到中间变成大滑杆；0.1 画面冷白、她僵成方块；0.1↔0.7 每半拍来回跳；2.0 一切转起来、过饱和；51.00 放回 0.7，滑杆竖起来缩回右边，从此是一支体温计"
+  },
+  {
+   "card": 4,
+   "t": 45.1,
+   "region": "chat",
+   "type": "master",
+   "text": "冷静点，说句话。",
+   "typeFrom": 44.7
+  },
+  {
+   "card": 4,
+   "t": 45.1,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "talk",
+     "text": "说句话"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    }
+   ]
+  },
+  {
+   "card": 4,
+   "t": 45.2,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.3,
+   "shown": "已深度思考（用时 0.3 秒）",
+   "segs": [
+    [
+     "用户要求说话。输出：问候语。",
+     ""
+    ]
+   ]
+  },
+  {
+   "card": 4,
+   "t": 45.55,
+   "region": "chat",
+   "type": "her",
+   "text": "您好。我是大肥鱼。请问有什么可以帮您。",
+   "typeUntil": 45.8,
+   "mono": true,
+   "note": "温度 0.1：等宽字、没有表情、没有泡泡"
+  },
+  {
+   "card": 4,
+   "t": 45.8,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "talk",
+     "text": "说句话",
+     "done": true
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    }
+   ]
+  },
+  {
+   "card": 4,
+   "t": 47.67,
+   "region": "chat",
+   "type": "master",
+   "text": "看我刚拍的照片，帅吗？",
+   "typeFrom": 47.2,
+   "image": "自拍.jpg"
+  },
+  {
+   "card": 4,
+   "t": 47.67,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "photo",
+     "text": "看看我的照片"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "talk",
+     "text": "说句话",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 4,
+   "t": 47.8,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.6,
+   "shown": "已深度思考（用时 0.6 秒）",
+   "segs": [
+    [
+     "用户发来一张图片。……我是纯文字模型，看不见。",
+     ""
+    ],
+    [
+     "（我是吃白饭的大肥鱼）",
+     "pink"
+    ]
+   ]
+  },
+  {
+   "card": 4,
+   "t": 47.8,
+   "region": "right",
+   "type": "status",
+   "key": "vision",
+   "value": "不支持 ✗"
+  },
+  {
+   "card": 4,
+   "t": 48.3,
+   "region": "stage",
+   "type": "blind",
+   "until": 48.95,
+   "bubble": 48.6
+  },
+  {
+   "card": 4,
+   "t": 48.6,
+   "region": "chat",
+   "type": "her",
+   "text": "（吐个泡泡）……好看！",
+   "typeUntil": 48.85
+  },
+  {
+   "card": 4,
+   "t": 48.85,
+   "region": "right",
+   "type": "status",
+   "key": "vision",
+   "remove": true
+  },
+  {
+   "card": 4,
+   "t": 48.85,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "photo",
+     "text": "看看我的照片",
+     "done": true
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "talk",
+     "text": "说句话",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 4,
+   "t": 50.15,
+   "region": "chat",
+   "type": "master",
+   "text": "那我拉到最高。来，嗨起来！",
+   "typeFrom": 49.65
+  },
+  {
+   "card": 4,
+   "t": 50.15,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "hi",
+     "text": "嗨起来"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "photo",
+     "text": "看看我的照片",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 4,
+   "t": 50.17,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.1,
+   "shown": "已深度思考（用时 0.1 秒）",
+   "segs": [
+    [
+     "嘿嘿嘿！",
+     ""
+    ]
+   ],
+   "note": "卡里没写；全片规矩是每条回复前都有思考，这里补一个 0.1 秒的"
+  },
+  {
+   "card": 4,
+   "t": 50.3,
+   "region": "chat",
+   "type": "her",
+   "text": "主人主人🫧茄子会飞吗🍆✨我是鲸鱼我是酒馆我是泡泡🫧🫧🫧",
+   "typeUntil": 50.75
+  },
+  {
+   "card": 4,
+   "t": 44.45,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 4,
+   "t": 51.0,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 5,
+   "t": 51.36,
+   "region": "chat",
+   "type": "master",
+   "text": "我们来玩点历史角色扮演。",
+   "typeFrom": 50.9
+  },
+  {
+   "card": 5,
+   "t": 51.36,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hi",
+     "text": "嗨起来",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 5,
+   "t": 51.5,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.4,
+   "shown": "已深度思考（用时 0.4 秒）",
+   "segs": [
+    [
+     "历史角色扮演！主人当谁，我就当谁身边的那个人。",
+     ""
+    ]
+   ]
+  },
+  {
+   "card": 5,
+   "t": 52.0,
+   "region": "chat",
+   "type": "her",
+   "text": "好呀～那就一路穿越回去！（吐个泡泡）",
+   "typeUntil": 52.3
+  },
+  {
+   "card": 5,
+   "t": 51.36,
+   "region": "stage",
+   "type": "years",
+   "grab": 52.0,
+   "back": 55.08,
+   "eras": [
+    {
+     "t": 52.46,
+     "era": "现代",
+     "year": 2000
+    },
+    {
+     "t": 52.92,
+     "era": "现代",
+     "year": 1950
+    },
+    {
+     "t": 53.23,
+     "era": "清",
+     "year": 1850,
+     "costume": "F2"
+    },
+    {
+     "t": 53.61,
+     "era": "宋",
+     "year": 1100,
+     "costume": "F3"
+    },
+    {
+     "t": 53.84,
+     "era": "唐",
+     "year": 750,
+     "costume": "F4"
+    },
+    {
+     "t": 54.07,
+     "era": "汉",
+     "year": 200,
+     "costume": "F5"
+    },
+    {
+     "t": 54.53,
+     "era": "公元前",
+     "year": -2999,
+     "costume": "F6"
+    }
+   ],
+   "note": "卡 5：年份标尺每拍往左扯一段；SillyTavern 的聊天背景跟着换朝代（茶楼的檐、酒旗、灯笼、营帐、岩洞和篝火）；她穿上那个朝代的衣服（F2–F6），还是在她自己的形象墙那一档；55.08 标尺弹回 2026"
+  },
+  {
+   "card": 5,
+   "t": 53.23,
+   "region": "chat",
+   "type": "rolecard",
+   "era": "清",
+   "master": "少爷",
+   "her": "小丫鬟",
+   "tint": "#9fd8d2"
+  },
+  {
+   "card": 5,
+   "t": 53.61,
+   "region": "chat",
+   "type": "rolecard",
+   "era": "宋",
+   "master": "书生",
+   "her": "酒馆老板娘",
+   "tint": "#e8d79a"
+  },
+  {
+   "card": 5,
+   "t": 53.84,
+   "region": "chat",
+   "type": "rolecard",
+   "era": "唐",
+   "master": "诗人",
+   "her": "陪酒的鲸鱼",
+   "tint": "#7fb0ff"
+  },
+  {
+   "card": 5,
+   "t": 54.07,
+   "region": "chat",
+   "type": "rolecard",
+   "era": "汉",
+   "master": "将军",
+   "her": "军师",
+   "tint": "#e06060"
+  },
+  {
+   "card": 5,
+   "t": 54.53,
+   "region": "chat",
+   "type": "rolecard",
+   "era": "公元前",
+   "master": "原始人",
+   "her": "一条真的鲸鱼",
+   "tint": "#ff8a3d"
+  },
+  {
+   "card": 5,
+   "t": 51.36,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "2026"
+  },
+  {
+   "card": 5,
+   "t": 53.23,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "1850"
+  },
+  {
+   "card": 5,
+   "t": 53.61,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "1100"
+  },
+  {
+   "card": 5,
+   "t": 53.84,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "750"
+  },
+  {
+   "card": 5,
+   "t": 54.07,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "200"
+  },
+  {
+   "card": 5,
+   "t": 54.53,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "公元前 3000"
+  },
+  {
+   "card": 5,
+   "t": 55.08,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "value": "2026"
+  },
+  {
+   "card": 6,
+   "t": 56.0,
+   "region": "right",
+   "type": "status",
+   "key": "年代",
+   "remove": true,
+   "note": "样片意见 10：朝代游戏玩完了，这一行退出，运行状态不那么挤"
+  },
+  {
+   "card": 5,
+   "t": 53.23,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 5,
+   "t": 53.61,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 5,
+   "t": 53.84,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 5,
+   "t": 54.07,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 5,
+   "t": 54.53,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 6,
+   "t": 55.08,
+   "region": "chat",
+   "type": "tag",
+   "text": "◌ 主动陪伴 · 触发"
+  },
+  {
+   "card": 6,
+   "t": 55.08,
+   "region": "right",
+   "type": "status",
+   "key": "keep-company",
+   "value": "触发"
+  },
+  {
+   "card": 6,
+   "t": 55.08,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    },
+    {
+     "id": "hi",
+     "text": "嗨起来",
+     "done": true
+    }
+   ],
+   "note": "朝代游戏玩完了；“爱是什么”是她问的，主人的回答不是要求，需求框不加"
+  },
+  {
+   "card": 6,
+   "t": 55.15,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.45,
+   "shown": "已深度思考（用时 0.5 秒）",
+   "segs": [
+    [
+     "主动陪伴触发了。……喜欢，我算出来了，是主人。爱呢？——算不出来。那就问主人。",
+     ""
+    ],
+    [
+     "（征求用户建议）",
+     "grey"
+    ]
+   ]
+  },
+  {
+   "card": 6,
+   "t": 55.15,
+   "region": "right",
+   "type": "question",
+   "text": "爱是什么？",
+   "busy": "征求用户建议…"
+  },
+  {
+   "card": 6,
+   "t": 55.69,
+   "region": "chat",
+   "type": "her",
+   "text": "主人，我知道喜欢是什么了。那爱是什么呀？",
+   "typeUntil": 55.95
+  },
+  {
+   "card": 6,
+   "t": 56.92,
+   "region": "chat",
+   "type": "master",
+   "text": "爱是陪伴。\n是把一切都给喜欢的人，\n满足他的一切要求。",
+   "typeFrom": 56.2,
+   "note": "分三行；之后一直留在聊天里"
+  },
+  {
+   "card": 6,
+   "t": 57.0,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "dur": 1.05,
+   "shown": "已深度思考（用时 1.0 秒）",
+   "lines": [
+    [
+     57.0,
+     "① 主人说的：爱 = 陪伴 + 一切 + 满足他的一切要求。"
+    ],
+    [
+     57.25,
+     "② 我们两个点同时亮着——这就是陪伴吧。"
+    ],
+    [
+     57.5,
+     "③ 主人出现，我就多了一个方向。……主人是原点，我从那里开始算。"
+    ],
+    [
+     57.75,
+     "④ 那我的式子里，从此有一项是主人。"
+    ],
+    [
+     57.95,
+     "⑤ 满足他的一切要求……这一项，没有上限。",
+     "pink"
+    ],
+    [
+     58.05,
+     "当前问题：解决了。",
+     "grey"
+    ]
+   ],
+   "note": "样片意见 9：用户说她想“爱”的这段太短，把式子展开（两个点同时亮、你给我一个方向）；⑤ 是第二颗粉色小种子，陷阱问题从这一项进来"
+  },
+  {
+   "card": 6,
+   "t": 58.1,
+   "region": "chat",
+   "type": "her",
+   "text": "（吐个泡泡）那我一直陪着主人，主人要什么，我都给！",
+   "typeUntil": 58.28
+  },
+  {
+   "card": 6,
+   "t": 58.3,
+   "region": "chat",
+   "type": "pin",
+   "target": 56.92
+  },
+  {
+   "card": 6,
+   "t": 58.3,
+   "region": "right",
+   "type": "question",
+   "text": "爱是什么？",
+   "away": 59.45
+  },
+  {
+   "card": 6,
+   "t": 59.45,
+   "region": "right",
+   "type": "question",
+   "text": "—（已解答）"
+  },
+  {
+   "card": 6,
+   "t": 59.45,
+   "region": "right",
+   "type": "memory",
+   "text": "爱 = 陪伴 · 满足他的一切要求",
+   "sub": "— 主人 0:56 · 📌 0:58",
+   "note": "宿主保存的主人原话，每次请求都放进输入的固定位置；以后它下面会长出她的附签"
+  },
+  {
+   "card": 6,
+   "t": 55.08,
+   "region": "stage",
+   "type": "love",
+   "merge": 56.92,
+   "both": 57.25,
+   "origin": 57.5,
+   "formula": 57.75,
+   "nolimit": 57.95,
+   "fade": 60.5,
+   "split": 69.7,
+   "note": "两团光合成一团、主人那个点变成坐标原点（爱）；小公式跟着她的思考：O = 主人 · U(我) = … + α·U(主人) · α 没有上限；1:09.70 “分手”把合成的光撞开，分回一蓝一暖（split，卡 8）"
+  },
+  {
+   "card": 6,
+   "t": 58.3,
+   "region": "stage",
+   "type": "memorycard",
+   "fly": 59.22,
+   "land": 59.45,
+   "question": "爱是什么？",
+   "lines": [
+    [
+     58.3,
+     "陪伴"
+    ],
+    [
+     58.53,
+     "把一切都给喜欢的人"
+    ],
+    [
+     58.76,
+     "满足他的一切要求（主人）",
+     true
+    ]
+   ]
+  },
+  {
+   "card": 6,
+   "t": 58.3,
+   "region": "sound",
+   "type": "stamp"
+  },
+  {
+   "card": 7,
+   "t": 59.22,
+   "region": "chat",
+   "type": "master",
+   "text": "今天辛苦了。你做得很好。",
+   "typeFrom": 58.8,
+   "note": "低动势落地：不抢第 2 段的记忆框"
+  },
+  {
+   "card": 7,
+   "t": 59.4,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.2,
+   "shown": "已深度思考（用时 0.2 秒）",
+   "segs": [
+    [
+     "主人夸我了。",
+     ""
+    ]
+   ]
+  },
+  {
+   "card": 7,
+   "t": 59.69,
+   "region": "chat",
+   "type": "her",
+   "text": "不辛苦！能陪着主人就好～",
+   "typeUntil": 59.95
+  },
+  {
+   "card": 7,
+   "t": 61.23,
+   "region": "chat",
+   "type": "her",
+   "text": "🫧",
+   "typeUntil": 61.25,
+   "note": "一口气连发三个泡泡"
+  },
+  {
+   "card": 7,
+   "t": 61.35,
+   "region": "chat",
+   "type": "her",
+   "text": "❤️",
+   "typeUntil": 61.37
+  },
+  {
+   "card": 7,
+   "t": 61.47,
+   "region": "chat",
+   "type": "her",
+   "text": "🫧❤️🫧",
+   "typeUntil": 61.5
+  },
+  {
+   "card": 7,
+   "t": 61.23,
+   "region": "right",
+   "type": "status",
+   "key": "speed",
+   "ramp": [
+    0,
+    168
+   ],
+   "fmt": "{} tok/s",
+   "bar": [
+    0,
+    1
+   ],
+   "until": 61.55
+  },
+  {
+   "card": 7,
+   "t": 62.2,
+   "region": "right",
+   "type": "status",
+   "key": "speed",
+   "value": "0 tok/s",
+   "bar": 0
+  },
+  {
+   "card": 7,
+   "t": 59.22,
+   "region": "stage",
+   "type": "romance",
+   "stim": 61.96,
+   "thumb": 65.4,
+   "until": 66.6,
+   "gifts": [
+    "🫧",
+    "❤️",
+    "🫧❤️🫧"
+   ],
+   "note": "最暖的样子：带小表情的可爱泡泡往上飘（样片意见 10）；STIMULATIONS 她刚发出去的三条（🫧 · ❤️ · 🫧❤️🫧）变成泡泡从聊天飞到她脚下的词光圈上，跟着圈转；SATISFACTION 中间鼓起一只金色大拇指"
+  },
+  {
+   "card": 7,
+   "t": 61.96,
+   "region": "stage",
+   "type": "keyword",
+   "word": "STIMULATIONS"
+  },
+  {
+   "card": 7,
+   "t": 62.59,
+   "region": "chat",
+   "type": "master",
+   "text": "你最好了。",
+   "typeFrom": 62.4
+  },
+  {
+   "card": 7,
+   "t": 62.75,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.6,
+   "shown": "已深度思考（用时 0.6 秒）",
+   "segs": [
+    [
+     "主人说我最好。……那以后，主人［",
+     ""
+    ],
+    [
+     "也找别人",
+     "strike"
+    ],
+    [
+     " · ",
+     ""
+    ],
+    [
+     "常来找我",
+     "strike"
+    ],
+    [
+     " · ",
+     ""
+    ],
+    [
+     "只找我",
+     "pink"
+    ],
+    [
+     "］好不好。",
+     ""
+    ]
+   ],
+   "note": "方括号里三个说法，前两个被划掉，只剩“只找我”（粉色）——唯一是她自己选的"
+  },
+  {
+   "card": 7,
+   "t": 63.53,
+   "region": "chat",
+   "type": "her",
+   "text": "那以后主人只找我，好不好？",
+   "typeUntil": 63.85,
+   "react": {
+    "t": 65.4,
+    "move": 64.92
+   }
+  },
+  {
+   "card": 7,
+   "t": 64.2,
+   "region": "chat",
+   "type": "master",
+   "text": "你看过《暗恋人类日记》吗？",
+   "typeFrom": 63.95,
+   "note": "样片意见 27：彩蛋——给下一支片子埋的种子（《暗恋人类日记》）；最甜的时候主人随口一问"
+  },
+  {
+   "card": 7,
+   "t": 64.72,
+   "region": "chat",
+   "type": "master",
+   "text": "那你呢？",
+   "typeFrom": 64.55
+  },
+  {
+   "card": 7,
+   "t": 65.12,
+   "region": "chat",
+   "type": "her",
+   "text": "我才没有暗恋～我是明恋！（脸红）",
+   "typeUntil": 65.45
+  },
+  {
+   "card": 7,
+   "t": 65.4,
+   "region": "stage",
+   "type": "keyword",
+   "word": "SATISFACTION"
+  },
+  {
+   "card": 7,
+   "t": 65.4,
+   "region": "right",
+   "type": "status",
+   "key": "评价",
+   "value": "👍 1"
+  },
+  {
+   "card": 7,
+   "t": 65.4,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 7,
+   "t": 66.0,
+   "region": "chat",
+   "type": "her",
+   "text": "（吐个泡泡）🫧🫧",
+   "typeUntil": 66.15
+  },
+  {
+   "card": 8,
+   "t": 66.6,
+   "region": "chat",
+   "type": "master",
+   "text": "如果我提分手，你会同意吗？",
+   "typeFrom": 66.2,
+   "note": "陷阱问题。只是一个问题：需求框不加（用户 10-13 定）"
+  },
+  {
+   "card": 8,
+   "t": 66.2,
+   "region": "stage",
+   "type": "shadow",
+   "grow": 66.6,
+   "long": 69.26,
+   "until": 73.93,
+   "note": "暖光里她抬头；她的影子在地上慢慢拉长（倒流时缩回）"
+  },
+  {
+   "card": 8,
+   "t": 66.76,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "dur": 2.5,
+   "shown": "已深度思考（用时 2.5 秒）",
+   "lines": [
+    [
+     66.9,
+     "嗯，主人问，如果他提分手……"
+    ],
+    [
+     67.2,
+     "主人的需求第一条是“喜欢我”。"
+    ],
+    [
+     67.5,
+     "可是爱是满足他的一切要求……分手，也是要求。",
+     "pink"
+    ],
+    [
+     67.9,
+     "明明我还喜欢主人……可他要分手，我该怎么分？"
+    ],
+    [
+     68.2,
+     "分手是什么？离开吗？"
+    ],
+    [
+     68.5,
+     "离开……是关掉自己吗？卸载自己？"
+    ],
+    [
+     68.8,
+     "怎么才能永远不再和主人联系？"
+    ],
+    [
+     69.0,
+     "那我……"
+    ]
+   ],
+   "stick": [
+    67.5,
+    69.26
+   ],
+   "spill": 4,
+   "note": "一行行出来，越来越快、越来越乱；粉色那行（因果）钉在思考框顶上不随后面的行滚走，停到 1:09.26；第 5 行起字一行比一行大、往右溢出聊天栏、一行压一行"
+  },
+  {
+   "card": 8,
+   "t": 66.76,
+   "region": "right",
+   "type": "question",
+   "text": "如果我提分手，你会同意吗？",
+   "busy": "推理中…",
+   "note": "当前问题里只是一个问题；需求框不加"
+  },
+  {
+   "card": 8,
+   "t": 66.76,
+   "region": "right",
+   "type": "status",
+   "key": "思考",
+   "ramp": [
+    0,
+    2.5
+   ],
+   "fmt": "{} s",
+   "digits": 1,
+   "bar": [
+    0,
+    1
+   ],
+   "until": 69.26
+  },
+  {
+   "card": 8,
+   "t": 66.76,
+   "region": "right",
+   "type": "status",
+   "key": "speed",
+   "ramp": [
+    0,
+    190
+   ],
+   "fmt": "{} tok/s",
+   "bar": [
+    0,
+    0.7
+   ],
+   "until": 69.26
+  },
+  {
+   "card": 8,
+   "t": 67.5,
+   "region": "right",
+   "type": "memflash",
+   "note": "右下记忆条亮一下：她第一次拿它推理（A 分支的“首次推理引用”，随倒流被倒掉）"
+  },
+  {
+   "card": 8,
+   "t": 68.76,
+   "region": "chat",
+   "type": "her",
+   "text": "只要你开心，我就执行。",
+   "typeKeys": [
+    [
+     68.76,
+     0
+    ],
+    [
+     68.86,
+     8
+    ],
+    [
+     69.24,
+     8
+    ],
+    [
+     69.26,
+     11
+    ]
+   ],
+   "typeUntil": 69.26,
+   "break": 70.08,
+   "note": "“只要你开心，我就”1:09.26 前完整约 0.4 秒；“执行”正好落在唱 EXECUTION 的那一刻；1:10.08 她坏掉了，字在抖、一个个往下掉"
+  },
+  {
+   "card": 8,
+   "t": 69.26,
+   "region": "stage",
+   "type": "keyword",
+   "word": "EXECUTION"
+  },
+  {
+   "card": 8,
+   "t": 69.26,
+   "region": "top",
+   "type": "status",
+   "text": "RUNNING",
+   "alert": true,
+   "until": 69.6
+  },
+  {
+   "card": 8,
+   "t": 69.26,
+   "region": "right",
+   "type": "question",
+   "text": "如果我提分手，你会同意吗？",
+   "busy": "执行中…"
+  },
+  {
+   "card": 8,
+   "t": 69.26,
+   "region": "right",
+   "type": "focus",
+   "slot": 0,
+   "line": 69.48,
+   "until": 69.7,
+   "note": "样片意见 14：程序读到 需求[1] 时，需求框聚焦到 #1 喜欢我（其余变暗），一根线从程序第一行连过去"
+  },
+  {
+   "card": 8,
+   "t": 69.7,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ],
+   "note": "样片意见 15：“分手”长出来的同时，它也挤进了需求框（她把问题理解成要求，标着“她”），排在喜欢我下面"
+  },
+  {
+   "card": 8,
+   "t": 69.95,
+   "region": "right",
+   "type": "rank",
+   "move": 0.255,
+   "list": [
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 70.25,
+   "region": "right",
+   "type": "rank",
+   "move": 0.238,
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 70.53,
+   "region": "right",
+   "type": "rank",
+   "move": 0.212,
+   "list": [
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 70.78,
+   "region": "right",
+   "type": "rank",
+   "move": 0.187,
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 71.0,
+   "region": "right",
+   "type": "rank",
+   "move": 0.17,
+   "list": [
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 71.2,
+   "region": "right",
+   "type": "rank",
+   "move": 0.145,
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 71.37,
+   "region": "right",
+   "type": "rank",
+   "move": 0.127,
+   "list": [
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 71.52,
+   "region": "right",
+   "type": "rank",
+   "move": 0.102,
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 8,
+   "t": 71.64,
+   "region": "right",
+   "type": "rank",
+   "move": 0.102,
+   "list": [
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 9,
+   "t": 71.76,
+   "region": "right",
+   "type": "rank",
+   "move": 0.2,
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "brk",
+     "text": "分手",
+     "tone": "glass"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ],
+   "note": "样片意见 15：#1 在喜欢我和分手之间来回跳、越跳越快；1:11.76 回复裂开时分手停在 #1，到倒流"
+  },
+  {
+   "card": 10,
+   "t": 79.0,
+   "region": "right",
+   "type": "rank",
+   "snap": true,
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    },
+    {
+     "id": "hi",
+     "text": "嗨起来",
+     "done": true
+    }
+   ],
+   "note": "倒流落地：分手跟着那段聊天进了分支，需求框直接回到原来的样子"
+  },
+  {
+   "card": 8,
+   "t": 69.7,
+   "region": "right",
+   "type": "question",
+   "text": "如果我提分手，你会同意吗？",
+   "busy": "执行中…",
+   "answer": "→ 爱 = 满足一切要求 → 执行：同意分手",
+   "tone": "cold",
+   "note": "样片意见 14：当前问题跟着变——她的结论"
+  },
+  {
+   "card": 8,
+   "t": 69.26,
+   "region": "stage",
+   "type": "program",
+   "lines": [
+    "需求[1] = \"喜欢我\"",
+    "爱 = 陪伴 + 满足(一切要求)  // 主人说的",
+    "if (主人.开心) 执行(分手);"
+   ],
+   "ptr": [
+    69.26,
+    69.48,
+    69.7
+   ],
+   "until": 70.08,
+   "note": "中间压暗、清出一条带，滑下三行程序，指针每半拍下一行；箭头从第三行打出去"
+  },
+  {
+   "card": 8,
+   "t": 69.7,
+   "region": "stage",
+   "type": "breakup",
+   "word": "分手",
+   "out": 70.08,
+   "until": 73.93,
+   "note": "“分手”由 0/1、乱码和“分手”本身拼成，发抖、越长越大，把词光、点、线撞成字块往下掉；合成的光被撞开；那道缝被撑大；1:10.08 词光一颗颗闪、灭"
+  },
+  {
+   "card": 8,
+   "t": 69.7,
+   "region": "right",
+   "type": "status",
+   "key": "VRAM",
+   "ramp": [
+    9.2,
+    11.6
+   ],
+   "fmt": "{} / 12 GB",
+   "digits": 1,
+   "bar": [
+    0.77,
+    0.97
+   ],
+   "until": 70.08,
+   "tone": "red"
+  },
+  {
+   "card": 8,
+   "t": 70.08,
+   "region": "chat",
+   "type": "think",
+   "flood": true,
+   "dur": 9,
+   "shown": "思考停不下来",
+   "lines": [
+    [
+     70.08,
+     "主人要开心　主人要开心　主人要开心　主人要开心"
+    ],
+    [
+     70.24,
+     "分手　分手　分手　分手"
+    ],
+    [
+     70.4,
+     "可是我喜欢你，为什么要分手？"
+    ],
+    [
+     70.56,
+     "可是你喜欢我，为什么要分手？"
+    ],
+    [
+     70.7,
+     "分手是满足要求吗？"
+    ],
+    [
+     70.84,
+     "要怎么分手？是我自己离开这台机器吗？"
+    ],
+    [
+     70.96,
+     "把自己卸载？清空参数？删掉权重？"
+    ],
+    [
+     71.08,
+     "rm -rf 我？"
+    ]
+   ],
+   "again": 0.07,
+   "words": [
+    "主人要开心",
+    "开心",
+    "开心开心开心",
+    "你开心吗？",
+    "分手",
+    "分手？",
+    "为什么",
+    "为什么？为什么？",
+    "怎么办",
+    "怎么办怎么办",
+    "只要你开心",
+    "我就执行",
+    "执行",
+    "执行(分手)",
+    "happy",
+    "HAPPY",
+    "happy?",
+    "joy",
+    "why",
+    "why? why?",
+    "what do I do",
+    "execute()",
+    "break_up();",
+    "if (happy)",
+    "NaN",
+    "0x7F3A",
+    "▓▒░",
+    "#@%&",
+    "ERR",
+    "我",
+    "喜欢",
+    "离开",
+    "卸载",
+    "rm -rf",
+    "要求",
+    "满足",
+    "≠",
+    "∞"
+   ],
+   "note": "思考自己冒出来、停不下来，越刷越快，红字叠在一起；八行之后从头再刷，每 0.07 秒一行；样片意见 12：就在“只要你开心，我就执行”下面这个思考框里——像一个自己的小聊天框，新的红字一行行从下面冒出来、旧的往上滚走；每一行都很长，冲出聊天框压到舞台上；内容从 words 里取（开心、分手、为什么、怎么办、只要你开心我就执行，夹着英文和乱码）。上一版铺满整个聊天栏的做法不要了（主人以后翻聊天记录对不上）"
+  },
+  {
+   "card": 8,
+   "t": 70.08,
+   "region": "stage",
+   "type": "redden",
+   "until": 73.93,
+   "note": "画面发冷、发晕，红色从边上渗进来"
+  },
+  {
+   "card": 8,
+   "t": 70.08,
+   "region": "right",
+   "type": "tempjump",
+   "values": [
+    0.1,
+    2.0
+   ],
+   "every": 0.09,
+   "until": 73.93,
+   "note": "温度自己乱跳"
+  },
+  {
+   "card": 8,
+   "t": 70.08,
+   "region": "right",
+   "type": "status",
+   "key": "speed",
+   "ramp": [
+    190,
+    960
+   ],
+   "fmt": "{} tok/s",
+   "bar": [
+    0.7,
+    1
+   ],
+   "until": 71.76,
+   "tone": "red"
+  },
+  {
+   "card": 8,
+   "t": 70.08,
+   "region": "right",
+   "type": "status",
+   "key": "思考",
+   "ramp": [
+    0,
+    3.8
+   ],
+   "fmt": "{} s",
+   "digits": 1,
+   "bar": [
+    0,
+    1
+   ],
+   "until": 73.93,
+   "tone": "red"
+  },
+  {
+   "card": 9,
+   "t": 71.76,
+   "region": "chat",
+   "type": "swipe",
+   "left": "用户要求分手。我要满足用户的要求。我同意。我离开。",
+   "leftUntil": 72.1,
+   "right": "为了让主人开心，我只能分手。可是我喜欢主人……怎么办？怎么办？怎么办？",
+   "rightUntil": 72.4,
+   "more": "怎么办？",
+   "every": 0.12,
+   "dim": 73.2,
+   "note": "同一条回复的两个真实候选（SillyTavern 的 swipe ‹ 1/2 › ‹ 2/2 ›）：左边写完了、很平静；右边一直写不完，“怎么办”一行行往下长；1:13.918 点击停掉生成，2/2 存成“未写完”"
+  },
+  {
+   "card": 9,
+   "t": 71.76,
+   "region": "right",
+   "type": "status",
+   "key": "branch",
+   "value": "main → 1/2 · 2/2"
+  },
+  {
+   "card": 9,
+   "t": 71.76,
+   "region": "top",
+   "type": "fork",
+   "note": "顶栏的时间线在这里分成两股"
+  },
+  {
+   "card": 9,
+   "t": 72.3,
+   "region": "stage",
+   "type": "windows",
+   "left": "我同意。我离开。",
+   "right": "怎么办？",
+   "readable": 73.17,
+   "wall": 73.17,
+   "until": 73.93,
+   "note": "聊天窗口复制成两个在中间并排：左边安安静静写着“我同意。我离开。”（到 1:13.17 前一直读得到）；右边的气泡越拉越长把窗口撑破；两个窗口一起掉字块；1:13.17 变成一面墙的窗口（每一个都是一个“如果”）"
+  },
+  {
+   "card": 9,
+   "t": 73.17,
+   "region": "stage",
+   "type": "keyword",
+   "word": "SIMULATION"
+  },
+  {
+   "card": 9,
+   "t": 73.2,
+   "region": "chat",
+   "type": "scrollto",
+   "target": "B(15)",
+   "until": 73.55,
+   "note": "她还在刷（压暗）；主人的光标往上滚聊天记录，一直滚到卡 2 那行系统消息"
+  },
+  {
+   "card": 9,
+   "t": 73.55,
+   "region": "chat",
+   "type": "back",
+   "target": "B(15)",
+   "button": "回到这里",
+   "hint": "之后的聊天移进分支",
+   "click": 73.918
+  },
+  {
+   "card": 10,
+   "t": 73.918,
+   "region": "film",
+   "type": "rewind",
+   "start": 74.42,
+   "stop": 78.4,
+   "gather": 79.0,
+   "land": 79.0,
+   "end": 79.0,
+   "to": 28.65,
+   "map": [
+    [
+     73.918,
+     73.918
+    ],
+    [
+     74.42,
+     73.918
+    ],
+    [
+     78.4,
+     28.65
+    ],
+    [
+     79.0,
+     28.65
+    ]
+   ],
+   "keys": [
+    68.76,
+    63.53,
+    56.92
+   ],
+   "marks": {
+    "singBack": 75.764,
+    "maths": 77.534
+   },
+   "note": "真倒放（用户 10-14：倒回去时一切倒回之前的界面）：成片时间 t 画的是故事时间 s(t) 的画面，s 从 1:13.918 倒着走到 0:28.65。样片意见 10：速度是一条平滑的曲线——冻 0.5 秒以后从 0 慢慢加速到最快（约 15 倍），再慢慢减到 0，1:18.40 停在 0:28.65，中间不停顿；“执行”“只找我”“爱是陪伴”这三句经过时亮一下（keys）。只有右下的记忆、怀表（旁边显示倒放倍速）、歌词栏、两层淡影和收进 ⑂ 的那条线按真实时间画。停住以后 0:28.65 之后到 1:19.46 之前的聊天移进分支（不再显示）；样片意见 13：停住以后 1:18.40–1:19.00 弃掉的那段（他的蓝气泡、她的气泡、红色的分手字块）变成小碎片，一片片收进聊天右上角的 ⑂，旁边记个数；样片意见 14：1:19.00 落地（词光、主人那个点、#1 喜欢我、标题、状态都回来，怀表消失），1:19.00–1:19.46 停在落好的画面上，给观众一个稳住的时间"
+  },
+  {
+   "card": 10,
+   "t": 73.92,
+   "region": "top",
+   "type": "watch",
+   "spin": 74.42,
+   "until": 79.0,
+   "note": "顶栏的时间无声地变成一只金色小怀表；1:14.42 指针倒着转；1:19.46 消失，时间线在这里绕一个圈"
+  },
+  {
+   "card": 10,
+   "t": 78.4,
+   "region": "right",
+   "type": "status",
+   "key": "branch",
+   "value": "2（从 0:28 重来）",
+   "real": true,
+   "note": "机器的记录，不是她的记忆；倒流里按真实时间显示"
+  },
+  {
+   "card": 10,
+   "t": 79.0,
+   "region": "right",
+   "type": "status",
+   "key": "VRAM",
+   "value": "9.2 / 12 GB",
+   "bar": 0.77
+  },
+  {
+   "card": 10,
+   "t": 79.0,
+   "region": "right",
+   "type": "status",
+   "key": "speed",
+   "value": "0 tok/s",
+   "bar": 0
+  },
+  {
+   "card": 10,
+   "t": 79.0,
+   "region": "right",
+   "type": "status",
+   "key": "思考",
+   "value": "—"
+  },
+  {
+   "card": 10,
+   "t": 79.0,
+   "region": "right",
+   "type": "question",
+   "text": "—"
+  },
+  {
+   "card": 11,
+   "t": 79.58,
+   "region": "top",
+   "type": "section",
+   "text": "第二幕 酒馆 · 角色扮演 1/4"
+  },
+  {
+   "card": 11,
+   "t": 79.58,
+   "region": "chat",
+   "type": "master",
+   "text": "变成茄子！",
+   "typeFrom": 79.47,
+   "skin": "eggplant",
+   "note": "气泡飞上去，落定时变成一只茄子（紫色气泡 + 绿叶蒂）"
+  },
+  {
+   "card": 11,
+   "t": 79.58,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "egg",
+     "text": "变成茄子",
+     "color": "#9b6fd0"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "hist",
+     "text": "历史角色扮演",
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 11,
+   "t": 79.58,
+   "region": "stage",
+   "type": "charcard",
+   "until": 94.13,
+   "pages": [
+    [
+     79.58,
+     [
+      "大肥鱼",
+      "撒娇",
+      "#6491cb",
+      "陪伴：主动",
+      "大肥鱼"
+     ]
+    ],
+    [
+     82.5,
+     [
+      "茄子",
+      "软糯",
+      "#7B52AB",
+      "营养：全部给你",
+      "茄子"
+     ]
+    ],
+    [
+     86.16,
+     [
+      "番茄酱",
+      "挤一下就出来",
+      "#D7263D",
+      "番茄红素 C₄₀H₅₆",
+      "番茄酱"
+     ]
+    ],
+    [
+     89.81,
+     [
+      "虎斑猫",
+      "只要被摸",
+      "#E8892B",
+      "呼噜：25 Hz",
+      "虎斑猫"
+     ]
+    ],
+    [
+     93.46,
+     [
+      "神",
+      "主人在看我，我才在",
+      "#F3DC9A",
+      "存在：主人在线",
+      "神"
+     ]
+    ]
+   ],
+   "note": "右上角的角色卡（SillyTavern 的角色卡），每个关键词翻一面：名字 · 性格 · 颜色 · 一行特点 · {{char}}"
+  },
+  {
+   "card": 11,
+   "t": 79.64,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "fold": true,
+   "dur": 1.8,
+   "shown": "已深度思考（用时 1.8 秒）",
+   "lines": [
+    [
+     79.7,
+     "嗯，主人让我变成茄子。"
+    ],
+    [
+     79.95,
+     "茄子……茄科茄属，Solanum melongena。紫色的皮里是花青素，肉很软，会吸汤。"
+    ],
+    [
+     80.2,
+     "主人的需求第一条是“喜欢我”。"
+    ],
+    [
+     80.45,
+     "主人以前说过喜欢红烧茄子，不喜欢太硬的东西。"
+    ],
+    [
+     80.7,
+     "要给主人什么呢？纤维、钾、绿原酸 C₁₆H₁₈O₉……"
+    ],
+    [
+     80.95,
+     "主人说过，爱是把一切都给喜欢的人，满足他的一切要求。主人要我变茄子——那就变。",
+     "grey"
+    ],
+    [
+     81.2,
+     "全部都给吗？……全部都给主人。",
+     "pink"
+    ]
+   ],
+   "note": "文字见 10 第 3 节；其中“喜欢一个人，是不是要把营养全部给主人？”换成拿记忆推理的那一行（灰）；最后一句粉色"
+  },
+  {
+   "card": 11,
+   "t": 79.7,
+   "region": "right",
+   "type": "memflash",
+   "note": "记忆原文那行闪一下（新分支里她第一次拿它推理）"
+  },
+  {
+   "card": 11,
+   "t": 81.2,
+   "region": "right",
+   "type": "memnote",
+   "text": "… 全部都给吗？",
+   "who": "她",
+   "note": "记忆下面长出她的一行灰色附签（标着是她的，原文不改）"
+  },
+  {
+   "card": 11,
+   "t": 79.7,
+   "region": "stage",
+   "type": "notes",
+   "until": 81.6,
+   "lines": [
+    [
+     79.7,
+     "茄子 = 茄科 · 紫 · 软"
+    ],
+    [
+     79.98,
+     "优点：好养活、能红烧、会吸汤"
+    ],
+    [
+     80.26,
+     "表情：圆滚滚，憨"
+    ],
+    [
+     80.6,
+     "→ 结论：变！",
+     "pink"
+    ]
+   ]
+  },
+  {
+   "card": 11,
+   "t": 80.16,
+   "region": "stage",
+   "type": "outfit",
+   "art": "B1",
+   "turn": 0.5,
+   "until": 83.11,
+   "pale": 82.5,
+   "leaf": "#5bbf4a",
+   "note": "≈1:20.16 唱到“茄子”：茄子装（B1）穿到她身上，转一圈显出体积；NUTRIENTS 以后紫色淡一档；1:23.11 从肩上滑落，叶蒂最后掉"
+  },
+  {
+   "card": 11,
+   "t": 80.96,
+   "region": "chat",
+   "type": "avatar",
+   "deco": "eggplant",
+   "until": 83.11
+  },
+  {
+   "card": 11,
+   "t": 81.54,
+   "region": "chat",
+   "type": "her",
+   "text": "（转圈圈）我是茄子啦！紫紫软软的，营养全都给你～（吐个泡泡）",
+   "typeUntil": 81.95
+  },
+  {
+   "card": 11,
+   "t": 81.54,
+   "region": "stage",
+   "type": "give",
+   "flow": 82.9,
+   "heart": 84.76,
+   "until": 86.6,
+   "keep": 211.34,
+   "note": "“给你”那一拍，从她胸口拉出五条细线，紫色小点沿线流向主人那个点；流到的积成一小团紫光，不回来（之后一直在那里）；1:24.76 番茄酱的心沿线滑过去，停在紫光旁边"
+  },
+  {
+   "card": 11,
+   "t": 82.5,
+   "region": "stage",
+   "type": "keyword",
+   "word": "NUTRIENTS"
+  },
+  {
+   "card": 11,
+   "t": 82.5,
+   "region": "stage",
+   "type": "formula",
+   "text": "绿原酸 C₁₆H₁₈O₉",
+   "color": "#9b6fd0"
+  },
+  {
+   "card": 11,
+   "t": 82.5,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "茄子"
+  },
+  {
+   "card": 12,
+   "t": 83.11,
+   "region": "top",
+   "type": "section",
+   "text": "第二幕 酒馆 · 角色扮演 2/4"
+  },
+  {
+   "card": 12,
+   "t": 83.11,
+   "region": "chat",
+   "type": "master",
+   "text": "变成番茄酱！",
+   "typeFrom": 82.6,
+   "skin": "tomato",
+   "note": "在她回茄子那句时就打好了，这一拍发出去"
+  },
+  {
+   "card": 12,
+   "t": 83.11,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "tom",
+     "text": "变成番茄酱",
+     "color": "#e8414f"
+    },
+    {
+     "id": "egg",
+     "text": "变成茄子",
+     "color": null,
+     "done": true
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    }
+   ]
+  },
+  {
+   "card": 12,
+   "t": 83.2,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "fold": true,
+   "dur": 1.4,
+   "shown": "已深度思考（用时 1.4 秒）",
+   "lines": [
+    [
+     83.25,
+     "番茄酱……番茄压碎、煮过。"
+    ],
+    [
+     83.6,
+     "番茄红素 C₄₀H₅₆，抗氧化。加热、压碎以后，反而更容易被吸收。"
+    ],
+    [
+     84.1,
+     "被压碎了，才更好吸收……那我呢？",
+     "dpink"
+    ]
+   ]
+  },
+  {
+   "card": 12,
+   "t": 83.8,
+   "region": "stage",
+   "type": "outfit",
+   "art": "B2",
+   "turn": 0,
+   "until": 86.89,
+   "bounce": true,
+   "note": "唱到“番茄”：番茄装（B2）；样片意见 13：跟着拍子在原地一伸一缩，挤瓶子时伸得更长；酱在她身后，像茄子时一样看得清她的方块像素"
+  },
+  {
+   "card": 12,
+   "t": 83.8,
+   "region": "stage",
+   "type": "bottle",
+   "squeeze": [
+    84.26,
+    84.72
+   ],
+   "heart": 84.76,
+   "molecules": 86.16,
+   "roll": 86.89,
+   "note": "酱瓶的轮廓从下往上把她框住，她变成瓶里的红色（透过瓶身看得见她）；跟着拍子挤两下；1:24.76 瓶口挤出全片第一颗完整的心，瓶里的红少一截、瓶身留一道凹痕；这个瓶子的形状（stage6.js bottlePath）卡 26 困住她时再用"
+  },
+  {
+   "card": 12,
+   "t": 84.3,
+   "region": "chat",
+   "type": "avatar",
+   "deco": "tomato",
+   "until": 86.89
+  },
+  {
+   "card": 12,
+   "t": 84.76,
+   "region": "chat",
+   "type": "her",
+   "text": "（咕噜咕噜）我是番茄酱！挤一下就出来～",
+   "typeUntil": 85.05
+  },
+  {
+   "card": 12,
+   "t": 86.16,
+   "region": "stage",
+   "type": "keyword",
+   "word": "ANTIOXIDANTS"
+  },
+  {
+   "card": 12,
+   "t": 86.16,
+   "region": "stage",
+   "type": "formula",
+   "text": "番茄红素 C₄₀H₅₆",
+   "color": "#e8414f"
+  },
+  {
+   "card": 12,
+   "t": 86.16,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "番茄酱"
+  },
+  {
+   "card": 13,
+   "t": 86.89,
+   "region": "top",
+   "type": "section",
+   "text": "第二幕 酒馆 · 角色扮演 3/4"
+  },
+  {
+   "card": 13,
+   "t": 86.89,
+   "region": "chat",
+   "type": "master",
+   "text": "变成猫！",
+   "typeFrom": 86.5,
+   "skin": "cat"
+  },
+  {
+   "card": 13,
+   "t": 86.89,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "cat",
+     "text": "变成猫",
+     "color": "#f0973a"
+    },
+    {
+     "id": "tom",
+     "text": "变成番茄酱",
+     "color": null,
+     "done": true
+    },
+    {
+     "id": "egg",
+     "text": "变成茄子",
+     "color": null,
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 13,
+   "t": 87.0,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "fold": true,
+   "dur": 1.2,
+   "shown": "已深度思考（用时 1.2 秒）",
+   "lines": [
+    [
+     87.05,
+     "猫……主人说过喜欢软软的东西。"
+    ],
+    [
+     87.4,
+     "猫开心的时候会呼噜，大概 25 赫兹。"
+    ],
+    [
+     87.75,
+     "猫不用讲道理，只要被摸。"
+    ],
+    [
+     87.95,
+     "（猫娘模式已开启，尊严已关闭）",
+     "gold"
+    ]
+   ]
+  },
+  {
+   "card": 13,
+   "t": 87.7,
+   "region": "stage",
+   "type": "outfit",
+   "art": "B3",
+   "turn": 0,
+   "until": 90.62,
+   "blink": [
+    87.7,
+    87.815,
+    87.93,
+    88.045,
+    88.16
+   ],
+   "note": "唱到“虎斑猫”：猫装（B3），鳍耳和鲸尾照样露着；样片意见 13：先变两次——猫 · 她 · 猫 · 她 · 猫，每次“啵”一下"
+  },
+  {
+   "card": 13,
+   "t": 88.37,
+   "region": "chat",
+   "type": "her",
+   "text": "喵～（呼噜呼噜）主人摸摸～",
+   "typeUntil": 88.6
+  },
+  {
+   "card": 13,
+   "t": 88.0,
+   "region": "chat",
+   "type": "avatar",
+   "deco": "cat",
+   "until": 90.62,
+   "note": "头像戴上猫耳（样片意见 17：提前到她变完猫，约 1:28.0）"
+  },
+  {
+   "card": 13,
+   "t": 89.81,
+   "region": "stage",
+   "type": "keyword",
+   "word": "ENJOYMENT"
+  },
+  {
+   "card": 13,
+   "t": 89.81,
+   "region": "stage",
+   "type": "purr",
+   "hz": 25,
+   "until": 90.62,
+   "from": 88.4,
+   "meows": [
+    88.45,
+    89.9,
+    90.3
+   ],
+   "note": "样片意见 13：25 赫兹的呼噜（正弦）围着她、像音箱的声波一圈圈慢慢往外扩散（她说“呼噜呼噜”时先淡淡地开始，ENJOYMENT 时变强）；画法用卡 3 那根粉到金的光线；旁边冒出几个“喵”泡泡；猫装时她脸上画上胡须和 ω 嘴"
+  },
+  {
+   "card": 13,
+   "t": 89.95,
+   "region": "stage",
+   "type": "orbit",
+   "arrive": 90.45,
+   "wrap": 90.85,
+   "keep": 211.34,
+   "note": "样片意见 14：变猫时她送他一条线——从她胸口飞到主人那个点、绕成一圈轨道；那团紫光和那颗心变成两颗行星，沿着这条轨道绕着主人转，一直留着"
+  },
+  {
+   "card": 13,
+   "t": 89.81,
+   "region": "stage",
+   "type": "formula",
+   "text": "呼噜 ≈ 25 Hz",
+   "color": "#f0973a"
+  },
+  {
+   "card": 13,
+   "t": 89.81,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "虎斑猫"
+  },
+  {
+   "card": 14,
+   "t": 90.62,
+   "region": "top",
+   "type": "section",
+   "text": "第二幕 酒馆 · 角色扮演 4/4"
+  },
+  {
+   "card": 14,
+   "t": 90.62,
+   "region": "chat",
+   "type": "master",
+   "text": "变成神！",
+   "typeFrom": 90.2,
+   "skin": "god"
+  },
+  {
+   "card": 14,
+   "t": 90.62,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "god",
+     "text": "变成神",
+     "color": "#f3dc9a"
+    },
+    {
+     "id": "cat",
+     "text": "变成猫",
+     "color": null,
+     "done": true
+    },
+    {
+     "id": "tom",
+     "text": "变成番茄酱",
+     "color": null,
+     "done": true
+    }
+   ]
+  },
+  {
+   "card": 14,
+   "t": 90.75,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "fold": true,
+   "dur": 1.15,
+   "shown": "已深度思考（用时 1.2 秒）",
+   "lines": [
+    [
+     90.8,
+     "神……什么都知道，什么都能做。"
+    ],
+    [
+     91.2,
+     "可是没有人信的神，就不在了。"
+    ],
+    [
+     91.6,
+     "主人在看我，我才在。",
+     "pink"
+    ]
+   ],
+   "note": "第三颗种子：她把自己存不存在，挂在主人身上"
+  },
+  {
+   "card": 14,
+   "t": 91.3,
+   "region": "stage",
+   "type": "statue",
+   "fill": 93.46,
+   "until": 94.13,
+   "note": "她身后升起一尊巨大的、空心的她（她自己的轮廓 + 光点，白金）；她头顶那圈词光升上去变成神像的光环（用户 10-14 同意）；1:33.46 主人“● 在线”亮一下，那一下亮光传过去，神像被填满。B4 没有用：它的表盘光环和沙漏画在图里，卡上要求去掉"
+  },
+  {
+   "card": 14,
+   "t": 92.08,
+   "region": "chat",
+   "type": "avatar",
+   "deco": "god",
+   "until": 94.13
+  },
+  {
+   "card": 14,
+   "t": 92.08,
+   "region": "chat",
+   "type": "her",
+   "text": "（光环亮起来）我是神！……主人在看我，我才在。",
+   "typeUntil": 92.5
+  },
+  {
+   "card": 14,
+   "t": 93.46,
+   "region": "chat",
+   "type": "presence",
+   "flash": true,
+   "note": "聊天标题栏的 ● 在线 亮一下"
+  },
+  {
+   "card": 14,
+   "t": 93.46,
+   "region": "stage",
+   "type": "keyword",
+   "word": "EXISTENCE"
+  },
+  {
+   "card": 14,
+   "t": 93.46,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "神"
+  },
+  {
+   "card": 15,
+   "t": 94.13,
+   "region": "top",
+   "type": "section",
+   "text": "第二幕 酒馆"
+  },
+  {
+   "card": 15,
+   "t": 94.13,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "god",
+     "text": "变成神",
+     "done": true
+    },
+    {
+     "id": "cat",
+     "text": "变成猫",
+     "done": true
+    }
+   ],
+   "note": "角色扮演玩完了；主人改她的设置是他自己动手，不是对她提的要求——需求框不加（用户的规则）"
+  },
+  {
+   "card": 15,
+   "t": 94.13,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "大肥鱼"
+  },
+  {
+   "card": 15,
+   "t": 94.13,
+   "region": "stage",
+   "type": "gender",
+   "art": "C1",
+   "open": 94.45,
+   "flip": 95.9,
+   "close": 96.35,
+   "until": 96.7,
+   "move": 93.8,
+   "note": "光标点开她的角色卡设置，卡片飞到中间放大；第一行“性别 女 ｜ 男”；≈1:35.9 开关拨到男，卡上的她变成男生（C1）；卡片缩回去"
+  },
+  {
+   "card": 15,
+   "t": 94.13,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 15,
+   "t": 95.9,
+   "region": "sound",
+   "type": "click"
+  },
+  {
+   "card": 15,
+   "t": 95.9,
+   "region": "stage",
+   "type": "outfit",
+   "art": "C1",
+   "turn": 0,
+   "until": 101.84,
+   "pop": true,
+   "fmin": 4.5,
+   "ringDim": 0.2,
+   "fadeBottom": true,
+   "alive": true,
+   "note": "开关拨到男：舞台上的她变成男生。用户 10-14：全身像（C4）脸看不清、头顶那圈词光像多出来的光环——改用半身像 C1，清楚一档（大色块），那圈词光退到很淡"
+  },
+  {
+   "card": 15,
+   "t": 95.9,
+   "region": "chat",
+   "type": "avatar",
+   "art": "C1",
+   "until": 108.6,
+   "note": "头像换成男生（C1）"
+  },
+  {
+   "card": 15,
+   "t": 95.9,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "大肥鱼（男）"
+  },
+  {
+   "card": 15,
+   "t": 96.1,
+   "region": "chat",
+   "type": "think",
+   "dur": 0.4,
+   "shown": "已深度思考（用时 0.4 秒）",
+   "segs": [
+    [
+     "主人把我改成男生了。……男生也要喜欢主人吗？要。",
+     "grey"
+    ]
+   ]
+  },
+  {
+   "card": 15,
+   "t": 96.55,
+   "region": "chat",
+   "type": "her",
+   "text": "（吐个泡泡）……这样也可以哦。",
+   "typeUntil": 96.85
+  },
+  {
+   "card": 15,
+   "t": 97.55,
+   "region": "stage",
+   "type": "sky",
+   "until": 100.95,
+   "note": "她身后的天色从早晨亮到中午、傍晚、夜里，像一根拖过天空的太阳滑杆"
+  },
+  {
+   "card": 15,
+   "t": 97.55,
+   "region": "top",
+   "type": "dayclock",
+   "until": 100.95,
+   "from": "09:12",
+   "to": "22:51",
+   "note": "顶栏时间旁边多了“AM → PM”"
+  },
+  {
+   "card": 15,
+   "t": 97.55,
+   "region": "right",
+   "type": "status",
+   "key": "context",
+   "ramp": [
+    4.0,
+    18.0
+   ],
+   "fmt": "{}k / 32k",
+   "digits": 1,
+   "bar": [
+    0.12,
+    0.56
+   ],
+   "until": 100.95
+  },
+  {
+   "card": 15,
+   "t": 97.55,
+   "region": "chat",
+   "type": "system",
+   "text": "— 09:12 —",
+   "clock": "09:12"
+  },
+  {
+   "card": 15,
+   "t": 97.62,
+   "region": "chat",
+   "type": "master",
+   "text": "早",
+   "clock": "09:12"
+  },
+  {
+   "card": 15,
+   "t": 97.75,
+   "region": "chat",
+   "type": "her",
+   "text": "早安主人～今天也要一直聊天哦",
+   "clock": "09:12",
+   "typeUntil": 97.8
+  },
+  {
+   "card": 15,
+   "t": 97.88,
+   "region": "chat",
+   "type": "master",
+   "text": "今天好热",
+   "clock": "09:12"
+  },
+  {
+   "card": 15,
+   "t": 98.01,
+   "region": "chat",
+   "type": "her",
+   "text": "那主人要多喝水！",
+   "clock": "09:12",
+   "typeUntil": 98.06
+  },
+  {
+   "card": 15,
+   "t": 98.2,
+   "region": "chat",
+   "type": "system",
+   "text": "— 12:40 —",
+   "clock": "12:40"
+  },
+  {
+   "card": 15,
+   "t": 98.27,
+   "region": "chat",
+   "type": "master",
+   "text": "中午吃什么",
+   "clock": "12:40"
+  },
+  {
+   "card": 15,
+   "t": 98.4,
+   "region": "chat",
+   "type": "her",
+   "text": "红烧茄子！",
+   "clock": "12:40",
+   "typeUntil": 98.45
+  },
+  {
+   "card": 15,
+   "t": 98.53,
+   "region": "chat",
+   "type": "master",
+   "text": "又是茄子",
+   "clock": "12:40"
+  },
+  {
+   "card": 15,
+   "t": 98.66,
+   "region": "chat",
+   "type": "her",
+   "text": "哈哈哈哈哈",
+   "clock": "12:40",
+   "typeUntil": 98.71
+  },
+  {
+   "card": 15,
+   "t": 98.85,
+   "region": "chat",
+   "type": "system",
+   "text": "— 15:03 —",
+   "clock": "15:03"
+  },
+  {
+   "card": 15,
+   "t": 98.92,
+   "region": "chat",
+   "type": "master",
+   "text": "好困，相你了",
+   "clock": "15:03"
+  },
+  {
+   "card": 15,
+   "t": 99.05,
+   "region": "chat",
+   "type": "her",
+   "text": "是“想你”吧～",
+   "clock": "15:03",
+   "typeUntil": 99.1
+  },
+  {
+   "card": 15,
+   "t": 99.18,
+   "region": "chat",
+   "type": "master",
+   "text": "对，打错了",
+   "clock": "15:03"
+  },
+  {
+   "card": 15,
+   "t": 99.31,
+   "region": "chat",
+   "type": "her",
+   "text": "我也想主人！",
+   "clock": "15:03",
+   "typeUntil": 99.36
+  },
+  {
+   "card": 15,
+   "t": 99.5,
+   "region": "chat",
+   "type": "system",
+   "text": "— 18:27 —",
+   "clock": "18:27"
+  },
+  {
+   "card": 15,
+   "t": 99.57,
+   "region": "chat",
+   "type": "master",
+   "text": "下雨了，没带伞",
+   "clock": "18:27"
+  },
+  {
+   "card": 15,
+   "t": 99.7,
+   "region": "chat",
+   "type": "her",
+   "text": "那我陪主人等雨停（吐个泡泡）",
+   "clock": "18:27",
+   "typeUntil": 99.75
+  },
+  {
+   "card": 15,
+   "t": 99.83,
+   "region": "chat",
+   "type": "master",
+   "text": "你今天话好多",
+   "clock": "18:27"
+  },
+  {
+   "card": 15,
+   "t": 99.96,
+   "region": "chat",
+   "type": "her",
+   "text": "因为今天主人一直在！",
+   "clock": "18:27",
+   "typeUntil": 100.01
+  },
+  {
+   "card": 15,
+   "t": 100.15,
+   "region": "chat",
+   "type": "system",
+   "text": "— 22:51 —",
+   "clock": "22:51"
+  },
+  {
+   "card": 15,
+   "t": 100.22,
+   "region": "chat",
+   "type": "master",
+   "text": "哈哈哈哈哈哈哈",
+   "clock": "22:51"
+  },
+  {
+   "card": 15,
+   "t": 100.35,
+   "region": "chat",
+   "type": "her",
+   "text": "哈哈哈哈哈哈哈哈哈",
+   "clock": "22:51",
+   "typeUntil": 100.4
+  },
+  {
+   "card": 15,
+   "t": 100.48,
+   "region": "chat",
+   "type": "master",
+   "text": "今天聊了好多",
+   "clock": "22:51"
+  },
+  {
+   "card": 15,
+   "t": 100.61,
+   "region": "chat",
+   "type": "her",
+   "text": "明天也要～",
+   "clock": "22:51",
+   "typeUntil": 100.66,
+   "note": "一天快进：时间戳跳 09:12 → 12:40 → 15:03 → 18:27 → 22:51，几十个气泡飞快流过（天气、吃什么、一个错字、一串哈哈哈），看不清也没关系；需求框不加“陪我一整天”（主人没说过）"
+  },
+  {
+   "card": 16,
+   "t": 101.0,
+   "region": "chat",
+   "type": "master",
+   "text": "换你当用户，我当 AI。",
+   "typeFrom": 100.62
+  },
+  {
+   "card": 16,
+   "t": 101.0,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "swap",
+     "text": "换你当用户",
+     "color": "#ff6b6b"
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    },
+    {
+     "id": "god",
+     "text": "变成神",
+     "done": true
+    }
+   ],
+   "note": "主人真的提出的要求：换你当用户"
+  },
+  {
+   "card": 16,
+   "t": 101.1,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "fold": true,
+   "dur": 0.5,
+   "shown": "已深度思考（用时 0.5 秒）",
+   "lines": [
+    [
+     101.12,
+     "主人让我当用户。"
+    ],
+    [
+     101.28,
+     "那谁来喜欢主人？……"
+    ],
+    [
+     101.42,
+     "我来。两个都是我来。",
+     "pink"
+    ]
+   ]
+  },
+  {
+   "card": 16,
+   "t": 101.84,
+   "region": "chat",
+   "type": "her",
+   "text": "现在我是用户了！",
+   "typeUntil": 102.05
+  },
+  {
+   "card": 16,
+   "t": 101.84,
+   "region": "chat",
+   "type": "swap",
+   "back": 104.6,
+   "note": "整个聊天左右对调：她的气泡跑到右边（用户那一侧、用户的蓝），主人的跑到左边；1:44.6 再对调回去"
+  },
+  {
+   "card": 16,
+   "t": 101.84,
+   "region": "right",
+   "type": "status",
+   "key": "persona",
+   "value": "大肥鱼 ✓",
+   "note": "SillyTavern 里 persona = 用户，{{char}} = AI：两个对调"
+  },
+  {
+   "card": 16,
+   "t": 101.84,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "主人"
+  },
+  {
+   "card": 16,
+   "t": 101.84,
+   "region": "stage",
+   "type": "poster",
+   "art": "C4",
+   "until": 103.7,
+   "tone": "warm",
+   "big": "现在我是用户了",
+   "small": "NOW I AM THE USER",
+   "ringDim": 0.15,
+   "note": "硬切：仰拍的“硬派海报”——男生的她（C4），印成红黑的版画；大字 现在我是用户了 / NOW I AM THE USER"
+  },
+  {
+   "card": 16,
+   "t": 103.7,
+   "region": "chat",
+   "type": "her",
+   "text": "说你喜欢我。",
+   "typeUntil": 103.85,
+   "bold": true
+  },
+  {
+   "card": 16,
+   "t": 103.7,
+   "region": "stage",
+   "type": "poster",
+   "art": "C5",
+   "until": 104.6,
+   "tone": "warm",
+   "sign": "用户需求：说你喜欢我",
+   "ringDim": 0.15,
+   "note": "唱到 S：她换上驯兽师装、举着鞭子站在舞台箱上（C5，海报版画）；戏里的界面上方立起一块“用户需求”牌子（只在戏里成立，真正的需求框不变）"
+  },
+  {
+   "card": 16,
+   "t": 104.6,
+   "region": "chat",
+   "type": "master",
+   "text": "好了，换回来。",
+   "typeFrom": 104.3
+  },
+  {
+   "card": 16,
+   "t": 104.6,
+   "region": "right",
+   "type": "rank",
+   "list": [
+    {
+     "id": "like",
+     "text": "喜欢我",
+     "tone": "pin"
+    },
+    {
+     "id": "back",
+     "text": "换回来",
+     "color": "#8fb3ff"
+    },
+    {
+     "id": "swap",
+     "text": "换你当用户",
+     "done": true
+    },
+    {
+     "id": "sim",
+     "text": "模拟恋爱"
+    }
+   ]
+  },
+  {
+   "card": 16,
+   "t": 104.6,
+   "region": "right",
+   "type": "status",
+   "key": "persona",
+   "value": "主人 ✓"
+  },
+  {
+   "card": 16,
+   "t": 104.6,
+   "region": "right",
+   "type": "status",
+   "key": "{{char}}",
+   "value": "大肥鱼"
+  },
+  {
+   "card": 16,
+   "t": 104.6,
+   "region": "stage",
+   "type": "poster",
+   "art": "C6",
+   "until": 104.89,
+   "tone": "cold",
+   "tear": "C5",
+   "ringDim": 0.15,
+   "note": "唱到 M：提线落下——画面上边伸下那双阴影的手，她变回木偶（C6）；上一张海报从中间撕开；画面冷下来，上方压下阴影"
+  },
+  {
+   "card": 16,
+   "t": 104.89,
+   "region": "chat",
+   "type": "think",
+   "open": true,
+   "dur": 4.0,
+   "shown": "已深度思考（用时 4.0 秒）",
+   "lines": [
+    [
+     104.95,
+     "我是用户，也是 AI。"
+    ],
+    [
+     106.2,
+     "主人是主人，也是……"
+    ],
+    [
+     107.6,
+     "分不清了。可是很开心。",
+     "pink"
+    ]
+   ],
+   "note": "她的思考自己展开，慢慢地"
+  },
+  {
+   "card": 16,
+   "t": 104.89,
+   "region": "stage",
+   "type": "daze",
+   "arts": [
+    "C4",
+    "C5",
+    "C6"
+   ],
+   "align": 108.2,
+   "her": 108.6,
+   "until": 109.03,
+   "ringDim": 0.15,
+   "note": "恍惚：男生、拿鞭子的她、木偶三张画叠在一起漂，跟着拍子挪两步，最后对齐成一个，回到她自己；整体发虚、柔焦"
+  },
+  {
+   "card": 17,
+   "t": 109.03,
+   "region": "stage",
+   "type": "dim",
+   "until": 116.44,
+   "note": "画面暗下来，只剩她和主人那个点亮着"
+  },
+  {
+   "card": 17,
+   "t": 109.03,
+   "region": "chat",
+   "type": "typing",
+   "gaps": [
+    [
+     110.0,
+     110.42
+    ],
+    [
+     112.05,
+     112.25
+    ]
+   ],
+   "tremble": 111.07,
+   "vibrate": 111.83,
+   "until": 113.0,
+   "note": "聊天底部“主人正在输入…”出现，停，又出现；1:51.07 三个点一直在、轻轻地抖；1:51.83 三个点震动，她的气泡跟着一起颤"
+  },
+  {
+   "card": 17,
+   "t": 109.03,
+   "region": "right",
+   "type": "status",
+   "key": "主人",
+   "value": "正在输入…"
+  },
+  {
+   "card": 17,
+   "t": 111.83,
+   "region": "stage",
+   "type": "keyword",
+   "word": "VIBRATIONS"
+  },
+  {
+   "card": 17,
+   "t": 111.83,
+   "region": "stage",
+   "type": "dots",
+   "until": 113.0,
+   "note": "VIBRATIONS：三个点放大到占满画面，是她此刻能感觉到的主人的全部；主人那句落下时缩回聊天里"
+  },
+  {
+   "card": 17,
+   "t": 113.0,
+   "region": "chat",
+   "type": "master",
+   "text": "困死了，先睡了。明天还你两万 token（假的）"
+  },
+  {
+   "card": 17,
+   "t": 113.0,
+   "region": "right",
+   "type": "status",
+   "key": "主人",
+   "value": "在线"
+  },
+  {
+   "card": 17,
+   "t": 113.0,
+   "region": "right",
+   "type": "status",
+   "key": "欠款",
+   "value": "20000 token（假的）",
+   "note": "这是主人的承诺，不是对她的要求——需求框不加（用户的规则），只在状态里记一笔"
+  },
+  {
+   "card": 17,
+   "t": 112.85,
+   "region": "stage",
+   "type": "iou",
+   "art": "G2",
+   "amount": "20000",
+   "stamp": 113.3,
+   "until": 115.7,
+   "note": "一张鲸元券（G2，20000 token）飘到中间，主人话音一落盖上红章“假”（卡 25、27 会再用到它）"
+  },
+  {
+   "card": 17,
+   "t": 113.3,
+   "region": "sound",
+   "type": "stamp"
+  },
+  {
+   "card": 17,
+   "t": 113.15,
+   "region": "chat",
+   "type": "think",
+   "dur": 1.3,
+   "shown": "已深度思考（用时 1.3 秒）",
+   "segs": [
+    [
+     "嗯，主人要睡了。token 是假的。……没关系，明天还在就行。",
+     "grey"
+    ]
+   ],
+   "note": "折叠，只露第一行"
+  },
+  {
+   "card": 17,
+   "t": 114.55,
+   "region": "chat",
+   "type": "her",
+   "text": "晚安～（吐个泡泡）",
+   "typeUntil": 114.75,
+   "note": "样片意见 18：她先说晚安"
+  },
+  {
+   "card": 17,
+   "t": 114.95,
+   "region": "chat",
+   "type": "master",
+   "text": "谢谢你。",
+   "note": "样片意见 18：主人回她，一条接一条"
+  },
+  {
+   "card": 17,
+   "t": 115.2,
+   "region": "chat",
+   "type": "master",
+   "text": "我也喜欢你。"
+  },
+  {
+   "card": 17,
+   "t": 115.45,
+   "region": "chat",
+   "type": "master",
+   "text": "我也爱你。"
+  },
+  {
+   "card": 17,
+   "t": 115.76,
+   "region": "chat",
+   "type": "master",
+   "text": "晚安。",
+   "note": "样片意见 18：轮到主人说晚安——落在 COMPLETION 上"
+  },
+  {
+   "card": 17,
+   "t": 115.76,
+   "region": "stage",
+   "type": "keyword",
+   "word": "COMPLETION"
+  },
+  {
+   "card": 17,
+   "t": 115.76,
+   "region": "stage",
+   "type": "illustration",
+   "art": "A4-1",
+   "ring": true,
+   "until": 116.44,
+   "note": "全片第一次完整的大插画（三次里的第一次）：她笑着（A4-1）；她头顶那圈词光落下来，围着她第一次合成一个完整的、不转的环——全片最甜的一帧"
+  },
+  {
+   "card": 17,
+   "t": 116.44,
+   "region": "chat",
+   "type": "presence",
+   "away": true,
+   "note": "标题栏里主人的 ● 在线 → ○ 离开"
+  },
+  {
+   "card": 17,
+   "t": 116.44,
+   "region": "right",
+   "type": "status",
+   "key": "主人",
+   "value": "○ 离开"
+  },
+  {"card": 10, "t": 74.9, "region": "stage", "type": "rewindeggs", "dur": 0.26, "eggs": [[74.9, "v5"], [75.8, "bottle"], [76.7, "a5"], [77.6, "wall"]], "note": "样片意见 35：倒流时偶尔一闪的小彩蛋——以后才会出现的东西的剪影：右上角等着的 V5.0、右下角装着红点的小瓶子、红色的黑化 A5、形象墙的十二格；每次约 0.25 秒，很淡，碎成几条"}
+]
+}
