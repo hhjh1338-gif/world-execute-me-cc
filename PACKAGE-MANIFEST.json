@@ -1,6 +1,6 @@
 {
   "format": 1,
-  "scope": "Public source distribution; user media and dependencies excluded.",
+  "scope": "Public source and documentation with limited showcase images; runtime user media and dependencies excluded. Showcase images are outside the MIT code license.",
   "licenseState": "confirmed",
   "files": [
     {
@@ -250,8 +250,8 @@
     },
     {
       "path": "docs/LICENSING.md",
-      "bytes": 766,
-      "sha256": "a47ae4569ec598de005b03d85a4df1b9bf0766dfa27cf0b5ae8662a79ded2699"
+      "bytes": 934,
+      "sha256": "3f6cf1a7fd502659132dfe709d2fc4179de4e7e640f729d9fca50109bcf77a73"
     },
     {
       "path": "docs/VALIDATION.md",
@@ -275,8 +275,8 @@
     },
     {
       "path": "NOTICE.md",
-      "bytes": 3001,
-      "sha256": "aebd991594a571f8356495fd6a08a9d5fa15033172214f866687394314141696"
+      "bytes": 3789,
+      "sha256": "951ba87caf5a81284861c1be40a601c0fc918a11ebb23e9678d2a0a5d56bbc0a"
     },
     {
       "path": "package.json",
@@ -285,13 +285,43 @@
     },
     {
       "path": "README.md",
-      "bytes": 5450,
-      "sha256": "9f41896d8c8f89f3024c84a336b826ce30a43db33667765c534da7ab69178d8d"
+      "bytes": 9723,
+      "sha256": "e0a03e9ff1a947d0e29444f135f4d106caf4a3922c074fcf58bf4dff81d05a41"
     },
     {
       "path": "tools/check-package.mjs",
       "bytes": 3110,
       "sha256": "611b31a800d6b616e37e4eec414228f1cefea2693547fddd7ad7f9662db837f0"
+    },
+    {
+      "path": "docs/media/README.md",
+      "bytes": 1888,
+      "sha256": "dff09a878e7a9ed4996218e96d16d80e522e0f83c0e4e7b0dcf6931da7605727"
+    },
+    {
+      "path": "docs/media/cover.jpg",
+      "bytes": 131875,
+      "sha256": "cbde8f0573e809189c77c574323777a7d44d23db8df78ab04d64e4b4107a2ba7"
+    },
+    {
+      "path": "docs/media/scene-024.jpg",
+      "bytes": 79954,
+      "sha256": "7ecc567c6f85ed99cf504188cd15d89c0925c20ff5fa0150d74e90d2770702db"
+    },
+    {
+      "path": "docs/media/scene-050.jpg",
+      "bytes": 63094,
+      "sha256": "d122bdce77223bb9d2aec80303a4e63e31f678f2bcfba76076d82da055ca6aaa"
+    },
+    {
+      "path": "docs/media/scene-118.jpg",
+      "bytes": 57167,
+      "sha256": "dd9801b50f3c0df550e4c57f632fbfbbeaa95289cf618e6d8fc6490752eee2d0"
+    },
+    {
+      "path": "docs/media/scene-168.jpg",
+      "bytes": 79139,
+      "sha256": "d1828b5a0dd8a96bc2e602bd9859291d26d3aab6a42ef9d2235e520c838221e5"
     }
   ]
 }

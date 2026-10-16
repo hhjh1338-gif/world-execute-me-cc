@@ -4,6 +4,6 @@
 
 MIT 允许在保留版权和许可声明的前提下使用、修改、分发和商用代码，并包含按现状提供、不作担保的条款。仓库公开发布不改变第三方素材各自的许可范围。
 
-代码许可不能覆盖音乐、歌词、角色设计、用户自行导入的素材或其他依赖。来源和范围见 [NOTICE.md](../NOTICE.md)。
+代码许可不能覆盖音乐、歌词、角色设计、`docs/media/` 中的展示用封面／截图、用户自行导入的素材或其他依赖。来源和范围见 [NOTICE.md](../NOTICE.md)。
 
-公开仓库：[hhjh1338-gif/world-execute-me-cc](https://github.com/hhjh1338-gif/world-execute-me-cc)。仓库分发范围为源码、文档和代码生成的几何演示，不包含原曲、完整歌词或原角色插画。
+公开仓库：[hhjh1338-gif/world-execute-me-cc](https://github.com/hhjh1338-gif/world-execute-me-cc)。仓库分发范围为源码、文档、代码生成的几何演示和少量展示用封面／成片截图；不包含原曲、完整歌词或用于重建成片的完整美术素材。展示图片单独说明来源，不随代码改用 MIT。
